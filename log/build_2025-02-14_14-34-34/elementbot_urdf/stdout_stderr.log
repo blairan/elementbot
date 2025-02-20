@@ -1,0 +1,29 @@
+running egg_info
+writing ../../build/elementbot_urdf/elementbot_urdf.egg-info/PKG-INFO
+writing dependency_links to ../../build/elementbot_urdf/elementbot_urdf.egg-info/dependency_links.txt
+writing requirements to ../../build/elementbot_urdf/elementbot_urdf.egg-info/requires.txt
+writing top-level names to ../../build/elementbot_urdf/elementbot_urdf.egg-info/top_level.txt
+reading manifest file '../../build/elementbot_urdf/elementbot_urdf.egg-info/SOURCES.txt'
+writing manifest file '../../build/elementbot_urdf/elementbot_urdf.egg-info/SOURCES.txt'
+running build
+running build_py
+copying elementbot_urdf/__init__.py -> /home/ctk/element_ws/build/elementbot_urdf/build/lib/elementbot_urdf
+running install
+running install_lib
+running install_data
+copying resource/elementbot_urdf -> /home/ctk/element_ws/install/elementbot_urdf/share/ament_index/resource_index/packages
+copying package.xml -> /home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf
+copying launch/display_xacro.launch.py -> /home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/launch
+copying launch/display.launch.py -> /home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/launch
+copying urdf/elementbot_4w_diff.urdf -> /home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/urdf
+copying urdf/elementbot_base.xacro -> /home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/urdf
+copying urdf/elementbot_4w_diff.xacro -> /home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/urdf
+copying urdf/elementbot_base.urdf -> /home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/urdf
+copying meshes/kinect.tga -> /home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/meshes
+copying meshes/kinect.dae -> /home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/meshes
+copying meshes/kinect.jpg -> /home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/meshes
+running install_egg_info
+removing '/home/ctk/element_ws/install/elementbot_urdf/lib/python3.10/site-packages/elementbot_urdf-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/elementbot_urdf/elementbot_urdf.egg-info to /home/ctk/element_ws/install/elementbot_urdf/lib/python3.10/site-packages/elementbot_urdf-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/ctk/element_ws/build/elementbot_urdf/install.log'

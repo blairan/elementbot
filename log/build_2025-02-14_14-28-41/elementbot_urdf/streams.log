@@ -1,0 +1,31 @@
+[2.254s] Invoking command in '/home/ctk/element_ws/src/elementbot_urdf': PYTHONPATH=/home/ctk/element_ws/build/elementbot_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ctk/element_ws/install/elementbot_urdf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/elementbot_urdf build --build-base /home/ctk/element_ws/build/elementbot_urdf/build install --record /home/ctk/element_ws/build/elementbot_urdf/install.log --single-version-externally-managed install_data
+[2.787s] running egg_info
+[2.823s] writing ../../build/elementbot_urdf/elementbot_urdf.egg-info/PKG-INFO
+[2.823s] writing dependency_links to ../../build/elementbot_urdf/elementbot_urdf.egg-info/dependency_links.txt
+[2.824s] writing requirements to ../../build/elementbot_urdf/elementbot_urdf.egg-info/requires.txt
+[2.824s] writing top-level names to ../../build/elementbot_urdf/elementbot_urdf.egg-info/top_level.txt
+[2.881s] reading manifest file '../../build/elementbot_urdf/elementbot_urdf.egg-info/SOURCES.txt'
+[2.882s] writing manifest file '../../build/elementbot_urdf/elementbot_urdf.egg-info/SOURCES.txt'
+[2.883s] running build
+[2.883s] running build_py
+[2.883s] copying elementbot_urdf/__init__.py -> /home/ctk/element_ws/build/elementbot_urdf/build/lib/elementbot_urdf
+[2.883s] running install
+[2.891s] running install_lib
+[2.912s] running install_data
+[2.912s] copying resource/elementbot_urdf -> /home/ctk/element_ws/install/elementbot_urdf/share/ament_index/resource_index/packages
+[2.912s] copying package.xml -> /home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf
+[2.912s] copying launch/display_xacro.launch.py -> /home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/launch
+[2.913s] copying launch/display.launch.py -> /home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/launch
+[2.913s] copying urdf/elementbot_4w_diff.urdf -> /home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/urdf
+[2.914s] copying urdf/elementbot_base.xacro -> /home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/urdf
+[2.915s] copying urdf/elementbot_4w_diff.xacro -> /home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/urdf
+[2.915s] copying urdf/elementbot_base.urdf -> /home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/urdf
+[2.915s] copying meshes/kinect.tga -> /home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/meshes
+[2.916s] copying meshes/kinect.dae -> /home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/meshes
+[2.918s] copying meshes/kinect.jpg -> /home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/meshes
+[2.919s] running install_egg_info
+[2.946s] removing '/home/ctk/element_ws/install/elementbot_urdf/lib/python3.10/site-packages/elementbot_urdf-0.0.0-py3.10.egg-info' (and everything under it)
+[2.946s] Copying ../../build/elementbot_urdf/elementbot_urdf.egg-info to /home/ctk/element_ws/install/elementbot_urdf/lib/python3.10/site-packages/elementbot_urdf-0.0.0-py3.10.egg-info
+[2.947s] running install_scripts
+[3.080s] writing list of installed files to '/home/ctk/element_ws/build/elementbot_urdf/install.log'
+[3.116s] Invoked command in '/home/ctk/element_ws/src/elementbot_urdf' returned '0': PYTHONPATH=/home/ctk/element_ws/build/elementbot_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ctk/element_ws/install/elementbot_urdf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/elementbot_urdf build --build-base /home/ctk/element_ws/build/elementbot_urdf/build install --record /home/ctk/element_ws/build/elementbot_urdf/install.log --single-version-externally-managed install_data

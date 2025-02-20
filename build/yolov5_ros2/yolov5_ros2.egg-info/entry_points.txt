@@ -1,0 +1,3 @@
+[console_scripts]
+fall_down_yolov8 = yolov5_ros2.fall_down_yolov8:main
+yolo_detect_2d = yolov5_ros2.yolo_detect_2d:main

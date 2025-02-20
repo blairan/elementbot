@@ -1,0 +1,2 @@
+[console_scripts]
+fall_down_detect_yolov5 = fall_down_yolov5.fall_down_detect_yolov5:main

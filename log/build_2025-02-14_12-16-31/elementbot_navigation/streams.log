@@ -1,0 +1,32 @@
+[1.833s] Invoking command in '/home/ctk/element_ws/src/elementbot_navigation': PYTHONPATH=/home/ctk/element_ws/build/elementbot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ctk/element_ws/install/elementbot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/elementbot_navigation build --build-base /home/ctk/element_ws/build/elementbot_navigation/build install --record /home/ctk/element_ws/build/elementbot_navigation/install.log --single-version-externally-managed install_data
+[2.193s] running egg_info
+[2.194s] creating ../../build/elementbot_navigation/elementbot_navigation.egg-info
+[2.221s] writing ../../build/elementbot_navigation/elementbot_navigation.egg-info/PKG-INFO
+[2.224s] writing dependency_links to ../../build/elementbot_navigation/elementbot_navigation.egg-info/dependency_links.txt
+[2.224s] writing requirements to ../../build/elementbot_navigation/elementbot_navigation.egg-info/requires.txt
+[2.225s] writing top-level names to ../../build/elementbot_navigation/elementbot_navigation.egg-info/top_level.txt
+[2.225s] writing manifest file '../../build/elementbot_navigation/elementbot_navigation.egg-info/SOURCES.txt'
+[2.283s] reading manifest file '../../build/elementbot_navigation/elementbot_navigation.egg-info/SOURCES.txt'
+[2.283s] writing manifest file '../../build/elementbot_navigation/elementbot_navigation.egg-info/SOURCES.txt'
+[2.285s] running build
+[2.285s] running build_py
+[2.285s] creating /home/ctk/element_ws/build/elementbot_navigation/build
+[2.285s] creating /home/ctk/element_ws/build/elementbot_navigation/build/lib
+[2.285s] creating /home/ctk/element_ws/build/elementbot_navigation/build/lib/elementbot_navigation
+[2.285s] copying elementbot_navigation/__init__.py -> /home/ctk/element_ws/build/elementbot_navigation/build/lib/elementbot_navigation
+[2.286s] running install
+[2.293s] running install_lib
+[2.319s] creating /home/ctk/element_ws/install/elementbot_navigation/lib/python3.10/site-packages/elementbot_navigation
+[2.319s] copying /home/ctk/element_ws/build/elementbot_navigation/build/lib/elementbot_navigation/__init__.py -> /home/ctk/element_ws/install/elementbot_navigation/lib/python3.10/site-packages/elementbot_navigation
+[2.320s] byte-compiling /home/ctk/element_ws/install/elementbot_navigation/lib/python3.10/site-packages/elementbot_navigation/__init__.py to __init__.cpython-310.pyc
+[2.320s] running install_data
+[2.320s] creating /home/ctk/element_ws/install/elementbot_navigation/share/ament_index
+[2.320s] creating /home/ctk/element_ws/install/elementbot_navigation/share/ament_index/resource_index
+[2.320s] creating /home/ctk/element_ws/install/elementbot_navigation/share/ament_index/resource_index/packages
+[2.320s] copying resource/elementbot_navigation -> /home/ctk/element_ws/install/elementbot_navigation/share/ament_index/resource_index/packages
+[2.321s] copying package.xml -> /home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation
+[2.321s] running install_egg_info
+[2.347s] Copying ../../build/elementbot_navigation/elementbot_navigation.egg-info to /home/ctk/element_ws/install/elementbot_navigation/lib/python3.10/site-packages/elementbot_navigation-0.0.0-py3.10.egg-info
+[2.348s] running install_scripts
+[2.468s] writing list of installed files to '/home/ctk/element_ws/build/elementbot_navigation/install.log'
+[2.510s] Invoked command in '/home/ctk/element_ws/src/elementbot_navigation' returned '0': PYTHONPATH=/home/ctk/element_ws/build/elementbot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ctk/element_ws/install/elementbot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/elementbot_navigation build --build-base /home/ctk/element_ws/build/elementbot_navigation/build install --record /home/ctk/element_ws/build/elementbot_navigation/install.log --single-version-externally-managed install_data

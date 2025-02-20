@@ -1,0 +1,154 @@
+<robot name="diff_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <!-- Define materials -->
+    <material name="brown">
+        <color rgba="0.8 0.3 0.1 0.85" />
+    </material>
+    <material name="yellow">
+        <color rgba="1.0 1.0 0.0 0.8" />
+    </material>
+    <material name="black">
+        <color rgba="0.0 0.0 0.0 0.5"/>
+    </material>
+
+    <!-- Define parameters -->
+    <xacro:property name="base_radius" value="0.1"/>
+    <xacro:property name="base_length" value="0.08"/>
+    <xacro:property name="wheel_radius" value="0.0325"/>
+    <xacro:property name="wheel_width" value="0.015"/>
+    <xacro:property name="wheel_separation" value="0.1"/>
+    <xacro:property name="wheel_offset" value="0.0225"/>
+    <xacro:property name="caster_radius" value="0.0075"/>
+    <xacro:property name="caster_offset" value="0.0925"/>
+    <xacro:property name="caster_z_offset" value="0.0475"/>
+    <xacro:property name="camera_size" value="0.01 0.025 0.025"/>
+    <xacro:property name="camera_x_offset" value="0.08"/>
+    <xacro:property name="camera_z_offset" value="0.0525"/>
+    <xacro:property name="laser_radius" value="0.03"/>
+    <xacro:property name="laser_length" value="0.04"/>
+    <xacro:property name="laser_z_offset" value="0.06"/>
+
+    <!-- Base footprint -->
+    <link name="base_footprint">
+        <visual>
+            <geometry>
+                <sphere radius="0.001"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <!-- Base link -->
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <cylinder radius="${base_radius}" length="${base_length}"/>
+            </geometry>
+            <origin xyz="0.0 0.0 0.0"/>
+            <material name="brown"/>
+        </visual>
+    </link>
+
+    <!-- Joints -->
+    <joint name="base_link2base_footprint" type="fixed">
+        <parent link="base_footprint"/>
+        <child link="base_link"/>
+        <origin xyz="0.0 0.0 0.055"/>
+    </joint>
+
+    <!-- Left wheel -->
+    <link name="left_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="${wheel_radius}" length="${wheel_width}"/>
+            </geometry>
+            <origin xyz="0.0 0.0 0.0" rpy="1.5705 0.0 0.0"/>
+            <material name="black"/>
+        </visual>
+    </link>
+    <joint name="left_wheel2base_link" type="continuous">
+        <parent link="base_link"/>
+        <child link="left_wheel"/>
+        <origin xyz="0 ${wheel_separation} -${wheel_offset}"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+
+    <!-- Right wheel -->
+    <link name="right_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="${wheel_radius}" length="${wheel_width}"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="1.5705 0 0"/>
+            <material name="black"/>
+        </visual>
+    </link>
+    <joint name="right_wheel2base_link" type="continuous">
+        <parent link="base_link"/>
+        <child link="right_wheel"/>
+        <origin xyz="0 -${wheel_separation} -${wheel_offset}"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+
+    <!-- Front caster -->
+    <link name="front_wheel">
+        <visual>
+            <geometry>
+                <sphere radius="${caster_radius}"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <material name="black"/>
+        </visual>
+    </link>
+    <joint name="front_wheel2base_link" type="continuous">
+        <parent link="base_link"/>
+        <child link="front_wheel"/>
+        <origin xyz="${caster_offset} 0 -${caster_z_offset}"/>
+        <axis xyz="1 1 1"/>
+    </joint>
+
+    <!-- Back caster -->
+    <link name="back_wheel">
+        <visual>
+            <geometry>
+                <sphere radius="${caster_radius}"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <material name="black"/>
+        </visual>
+    </link>
+    <joint name="back_wheel2base_link" type="continuous">
+        <parent link="base_link"/>
+        <child link="back_wheel"/>
+        <origin xyz="-${caster_offset} 0 -${caster_z_offset}"/>
+        <axis xyz="1 1 1"/>
+    </joint>
+
+    <!-- Camera -->
+    <link name="camera">
+        <visual>
+            <geometry>
+                <box size="${camera_size}"/>
+            </geometry>
+            <material name="yellow"/>
+        </visual>
+    </link>
+    <joint name="camera2base_link" type="fixed">
+        <parent link="base_link"/>
+        <child link="camera"/>
+        <origin xyz="${camera_x_offset} 0 ${camera_z_offset}"/>
+    </joint>
+
+    <!-- Laser -->
+    <link name="laser">
+        <visual>
+            <geometry>
+                <cylinder radius="${laser_radius}" length="${laser_length}"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+    </link>
+    <joint name="laser2base_link" type="fixed">
+        <parent link="base_link"/>
+        <child link="laser"/>
+        <origin xyz="0.0 0.0 ${laser_z_offset}"/>
+    </joint>
+</robot>

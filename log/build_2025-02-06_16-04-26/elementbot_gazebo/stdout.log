@@ -1,0 +1,35 @@
+running egg_info
+writing ../../build/elementbot_gazebo/elementbot_gazebo.egg-info/PKG-INFO
+writing dependency_links to ../../build/elementbot_gazebo/elementbot_gazebo.egg-info/dependency_links.txt
+writing requirements to ../../build/elementbot_gazebo/elementbot_gazebo.egg-info/requires.txt
+writing top-level names to ../../build/elementbot_gazebo/elementbot_gazebo.egg-info/top_level.txt
+reading manifest file '../../build/elementbot_gazebo/elementbot_gazebo.egg-info/SOURCES.txt'
+writing manifest file '../../build/elementbot_gazebo/elementbot_gazebo.egg-info/SOURCES.txt'
+running build
+running build_py
+copying elementbot_gazebo/__init__.py -> /home/ctk/element_ws/build/elementbot_gazebo/build/lib/elementbot_gazebo
+running install
+running install_lib
+running install_data
+copying resource/elementbot_gazebo -> /home/ctk/element_ws/install/elementbot_gazebo/share/ament_index/resource_index/packages
+copying package.xml -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo
+copying launch/display_2w_diff_urdf_into_gz.launch.py -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/launch
+copying launch/display_4w_diff_urdf_into_gz.launch.py -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/launch
+copying launch/yolo_4w_diff_urdf_into_gz.launch.py -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/launch
+copying urdf/elementbot_base.xacro -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/urdf
+copying urdf/elementbot_4w_diff.xacro -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/urdf
+copying urdf/elementbot_base.urdf -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/urdf
+copying urdf/sensors/rgbd_gazebo_harmonic.xacro -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/urdf/sensors
+copying urdf/sensors/lidar_gazebo_harmonic.xacro -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/urdf/sensors
+copying config/ros_gz_bridge_mbot.yaml -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/config
+copying config/ros_gz_bridge_elementbot_integrate.yaml -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/config
+copying config/ros_gz_bridge_elementbot_4w_integrate.yaml -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/config
+copying world/empty.sdf -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/world
+copying world/depot.sdf -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/world
+copying world/actor_demo.sdf -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/world
+copying world/line_follower.sdf -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/world
+running install_egg_info
+removing '/home/ctk/element_ws/install/elementbot_gazebo/lib/python3.10/site-packages/elementbot_gazebo-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/elementbot_gazebo/elementbot_gazebo.egg-info to /home/ctk/element_ws/install/elementbot_gazebo/lib/python3.10/site-packages/elementbot_gazebo-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/ctk/element_ws/build/elementbot_gazebo/install.log'
