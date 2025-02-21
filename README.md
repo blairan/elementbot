@@ -41,6 +41,14 @@
 - ### **Cartograph建圖**![1740107214178](images/README/1740107214178.png)
 - $ `ros2 launch elementbot_gazebo cartograph_4w_diff_urdf.launch.py`
 - $` ros2 launch elementbot_navigation cartograph_gz.launch.py`
+- ### **rtabmap 純雷達建圖**![1740122442665](images/README/1740122442665.png)
+
+
+  - ![1740122491195](images/README/1740122491195.png)
+  - $ `ros2 launch elementbot_gazebo slamtoolbox_4w_diff_urdf_gz.launch.py`
+  - $ `ros2 launch elementbot_navigation rtab_scan_gz.launch.py`
+  - 查看地圖
+    - 到根目錄　.ros資料夾內　`rtabmap-databaseViewer rtabmap.db`
 - ### **保存地圖**
 
 
