@@ -11,6 +11,7 @@ config/lds_2d.lua
 elementbot_navigation/__init__.py
 launch/cartograph_gz.launch.py
 launch/nav2_bringup_gz.launch.py
+launch/rtab_scan_gz.launch.py
 maps/cloister.yaml
 param/elementbot_nav2.yaml
 resource/elementbot_navigation
