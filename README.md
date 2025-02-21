@@ -38,7 +38,10 @@
   - $ `ros2 launch elementbot_gazebo slamtoolbox_4w_diff_urdf_gz.launch.py`
   - $`ros2 launch slam_toolbox online_async_launch.py`
   - $ `ros2 run teleop_twist_keyboard teleop_twist_keyboard`
-- ### 保存地圖
+- ### **Cartograph建圖**![1740107214178](images/README/1740107214178.png)
+- $ `ros2 launch elementbot_gazebo cartograph_4w_diff_urdf.launch.py`
+- $` ros2 launch elementbot_navigation cartograph_gz.launch.py`
+- ### **保存地圖**
 
 
   - $ `ros2 run nav2_map_server map_saver_cli -t map -f cloister`
