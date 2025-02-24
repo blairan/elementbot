@@ -1,0 +1,33 @@
+[10.208s] Invoking command in '/home/ctk/element_ws/src/elementbot_navigation': PYTHONPATH=/home/ctk/element_ws/build/elementbot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ctk/element_ws/install/elementbot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/elementbot_navigation build --build-base /home/ctk/element_ws/build/elementbot_navigation/build install --record /home/ctk/element_ws/build/elementbot_navigation/install.log --single-version-externally-managed install_data
+[11.449s] running egg_info
+[11.548s] writing ../../build/elementbot_navigation/elementbot_navigation.egg-info/PKG-INFO
+[11.551s] writing dependency_links to ../../build/elementbot_navigation/elementbot_navigation.egg-info/dependency_links.txt
+[11.553s] writing entry points to ../../build/elementbot_navigation/elementbot_navigation.egg-info/entry_points.txt
+[11.554s] writing requirements to ../../build/elementbot_navigation/elementbot_navigation.egg-info/requires.txt
+[11.554s] writing top-level names to ../../build/elementbot_navigation/elementbot_navigation.egg-info/top_level.txt
+[11.706s] reading manifest file '../../build/elementbot_navigation/elementbot_navigation.egg-info/SOURCES.txt'
+[11.712s] writing manifest file '../../build/elementbot_navigation/elementbot_navigation.egg-info/SOURCES.txt'
+[11.712s] running build
+[11.712s] running build_py
+[11.713s] copying elementbot_navigation/depth_filter.py -> /home/ctk/element_ws/build/elementbot_navigation/build/lib/elementbot_navigation
+[11.713s] copying elementbot_navigation/__init__.py -> /home/ctk/element_ws/build/elementbot_navigation/build/lib/elementbot_navigation
+[11.713s] copying elementbot_navigation/check_depth.py -> /home/ctk/element_ws/build/elementbot_navigation/build/lib/elementbot_navigation
+[11.713s] running install
+[11.742s] running install_lib
+[11.876s] running install_data
+[11.881s] copying resource/elementbot_navigation -> /home/ctk/element_ws/install/elementbot_navigation/share/ament_index/resource_index/packages
+[11.881s] copying package.xml -> /home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation
+[11.882s] copying launch/cartograph_gz.launch.py -> /home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/launch
+[11.883s] copying launch/rtab_rgbd_gz.launch.py -> /home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/launch
+[11.883s] copying launch/rtab_scan_gz.launch.py -> /home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/launch
+[11.883s] copying launch/nav2_bringup_gz.launch.py -> /home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/launch
+[11.883s] copying maps/cloister.yaml -> /home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/maps
+[11.883s] copying param/elementbot_nav2.yaml -> /home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/param
+[11.896s] running install_egg_info
+[12.017s] removing '/home/ctk/element_ws/install/elementbot_navigation/lib/python3.10/site-packages/elementbot_navigation-0.0.0-py3.10.egg-info' (and everything under it)
+[12.019s] Copying ../../build/elementbot_navigation/elementbot_navigation.egg-info to /home/ctk/element_ws/install/elementbot_navigation/lib/python3.10/site-packages/elementbot_navigation-0.0.0-py3.10.egg-info
+[12.033s] running install_scripts
+[12.999s] Installing check_depth script to /home/ctk/element_ws/install/elementbot_navigation/lib/elementbot_navigation
+[12.999s] Installing depth_filter script to /home/ctk/element_ws/install/elementbot_navigation/lib/elementbot_navigation
+[12.999s] writing list of installed files to '/home/ctk/element_ws/build/elementbot_navigation/install.log'
+[13.166s] Invoked command in '/home/ctk/element_ws/src/elementbot_navigation' returned '0': PYTHONPATH=/home/ctk/element_ws/build/elementbot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ctk/element_ws/install/elementbot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/elementbot_navigation build --build-base /home/ctk/element_ws/build/elementbot_navigation/build install --record /home/ctk/element_ws/build/elementbot_navigation/install.log --single-version-externally-managed install_data

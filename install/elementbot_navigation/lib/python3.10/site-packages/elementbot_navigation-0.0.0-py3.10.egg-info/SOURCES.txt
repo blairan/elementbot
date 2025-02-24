@@ -4,13 +4,17 @@ setup.py
 ../../build/elementbot_navigation/elementbot_navigation.egg-info/PKG-INFO
 ../../build/elementbot_navigation/elementbot_navigation.egg-info/SOURCES.txt
 ../../build/elementbot_navigation/elementbot_navigation.egg-info/dependency_links.txt
+../../build/elementbot_navigation/elementbot_navigation.egg-info/entry_points.txt
 ../../build/elementbot_navigation/elementbot_navigation.egg-info/requires.txt
 ../../build/elementbot_navigation/elementbot_navigation.egg-info/top_level.txt
 ../../build/elementbot_navigation/elementbot_navigation.egg-info/zip-safe
 config/lds_2d.lua
 elementbot_navigation/__init__.py
+elementbot_navigation/check_depth.py
+elementbot_navigation/depth_filter.py
 launch/cartograph_gz.launch.py
 launch/nav2_bringup_gz.launch.py
+launch/rtab_rgbd_gz.launch.py
 launch/rtab_scan_gz.launch.py
 maps/cloister.yaml
 param/elementbot_nav2.yaml

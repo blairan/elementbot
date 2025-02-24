@@ -27,6 +27,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'check_depth = elementbot_navigation.check_depth:main',
+            'depth_filter = elementbot_navigation.depth_filter:main'
         ],
     },
 )

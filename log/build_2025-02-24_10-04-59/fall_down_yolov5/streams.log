@@ -1,0 +1,29 @@
+[2.117s] Invoking command in '/home/ctk/element_ws/src/fall_down_yolov5': PYTHONPATH=/home/ctk/element_ws/build/fall_down_yolov5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ctk/element_ws/install/fall_down_yolov5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fall_down_yolov5 build --build-base /home/ctk/element_ws/build/fall_down_yolov5/build install --record /home/ctk/element_ws/build/fall_down_yolov5/install.log --single-version-externally-managed install_data
+[2.674s] running egg_info
+[2.696s] writing ../../build/fall_down_yolov5/fall_down_yolov5.egg-info/PKG-INFO
+[2.697s] writing dependency_links to ../../build/fall_down_yolov5/fall_down_yolov5.egg-info/dependency_links.txt
+[2.697s] writing entry points to ../../build/fall_down_yolov5/fall_down_yolov5.egg-info/entry_points.txt
+[2.697s] writing requirements to ../../build/fall_down_yolov5/fall_down_yolov5.egg-info/requires.txt
+[2.698s] writing top-level names to ../../build/fall_down_yolov5/fall_down_yolov5.egg-info/top_level.txt
+[2.775s] reading manifest file '../../build/fall_down_yolov5/fall_down_yolov5.egg-info/SOURCES.txt'
+[2.775s] writing manifest file '../../build/fall_down_yolov5/fall_down_yolov5.egg-info/SOURCES.txt'
+[2.776s] running build
+[2.776s] running build_py
+[2.777s] copying fall_down_yolov5/fall_down_detect_yolov5.py -> /home/ctk/element_ws/build/fall_down_yolov5/build/lib/fall_down_yolov5
+[2.779s] copying fall_down_yolov5/__init__.py -> /home/ctk/element_ws/build/fall_down_yolov5/build/lib/fall_down_yolov5
+[2.779s] copying fall_down_yolov5/cv_tool.py -> /home/ctk/element_ws/build/fall_down_yolov5/build/lib/fall_down_yolov5
+[2.779s] running install
+[2.791s] running install_lib
+[2.838s] running install_data
+[2.842s] copying package.xml -> /home/ctk/element_ws/install/fall_down_yolov5/share/fall_down_yolov5
+[2.842s] copying config/best.pt -> /home/ctk/element_ws/install/fall_down_yolov5/share/fall_down_yolov5/config
+[2.879s] copying config/camera_info.yaml -> /home/ctk/element_ws/install/fall_down_yolov5/share/fall_down_yolov5/config
+[2.879s] copying config/yolov5s.pt -> /home/ctk/element_ws/install/fall_down_yolov5/share/fall_down_yolov5/config
+[2.902s] copying resource/fall_down_yolov5 -> /home/ctk/element_ws/install/fall_down_yolov5/share/fall_down_yolov5/resource
+[2.902s] running install_egg_info
+[2.952s] removing '/home/ctk/element_ws/install/fall_down_yolov5/lib/python3.10/site-packages/fall_down_yolov5-0.0.0-py3.10.egg-info' (and everything under it)
+[2.953s] Copying ../../build/fall_down_yolov5/fall_down_yolov5.egg-info to /home/ctk/element_ws/install/fall_down_yolov5/lib/python3.10/site-packages/fall_down_yolov5-0.0.0-py3.10.egg-info
+[2.955s] running install_scripts
+[3.253s] Installing fall_down_detect_yolov5 script to /home/ctk/element_ws/install/fall_down_yolov5/lib/fall_down_yolov5
+[3.254s] writing list of installed files to '/home/ctk/element_ws/build/fall_down_yolov5/install.log'
+[3.289s] Invoked command in '/home/ctk/element_ws/src/fall_down_yolov5' returned '0': PYTHONPATH=/home/ctk/element_ws/build/fall_down_yolov5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ctk/element_ws/install/fall_down_yolov5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fall_down_yolov5 build --build-base /home/ctk/element_ws/build/fall_down_yolov5/build install --record /home/ctk/element_ws/build/fall_down_yolov5/install.log --single-version-externally-managed install_data

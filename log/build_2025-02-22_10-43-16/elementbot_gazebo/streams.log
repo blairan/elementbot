@@ -1,0 +1,41 @@
+[6.862s] Invoking command in '/home/ctk/element_ws/src/elementbot_gazebo': PYTHONPATH=/home/ctk/element_ws/build/elementbot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ctk/element_ws/install/elementbot_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/elementbot_gazebo build --build-base /home/ctk/element_ws/build/elementbot_gazebo/build install --record /home/ctk/element_ws/build/elementbot_gazebo/install.log --single-version-externally-managed install_data
+[8.108s] running egg_info
+[8.234s] writing ../../build/elementbot_gazebo/elementbot_gazebo.egg-info/PKG-INFO
+[8.234s] writing dependency_links to ../../build/elementbot_gazebo/elementbot_gazebo.egg-info/dependency_links.txt
+[8.234s] writing requirements to ../../build/elementbot_gazebo/elementbot_gazebo.egg-info/requires.txt
+[8.234s] writing top-level names to ../../build/elementbot_gazebo/elementbot_gazebo.egg-info/top_level.txt
+[8.387s] reading manifest file '../../build/elementbot_gazebo/elementbot_gazebo.egg-info/SOURCES.txt'
+[8.403s] writing manifest file '../../build/elementbot_gazebo/elementbot_gazebo.egg-info/SOURCES.txt'
+[8.404s] running build
+[8.404s] running build_py
+[8.412s] copying elementbot_gazebo/__init__.py -> /home/ctk/element_ws/build/elementbot_gazebo/build/lib/elementbot_gazebo
+[8.412s] running install
+[8.423s] running install_lib
+[8.483s] running install_data
+[8.483s] copying resource/elementbot_gazebo -> /home/ctk/element_ws/install/elementbot_gazebo/share/ament_index/resource_index/packages
+[8.489s] copying package.xml -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo
+[8.489s] copying launch/cartograph_4w_diff_urdf.launch.py -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/launch
+[8.489s] copying launch/slamtoolbox_4w_diff_urdf_gz.launch.py -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/launch
+[8.495s] copying launch/display_2w_diff_urdf_into_gz.launch.py -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/launch
+[8.495s] copying launch/display_4w_diff_urdf_into_gz.launch.py -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/launch
+[8.495s] copying launch/yolo_4w_diff_urdf_into_gz.launch.py -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/launch
+[8.495s] copying launch/yolo_falldown_4w_diff_urdf_into_gz.launch.py -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/launch
+[8.495s] copying urdf/elementbot_base.xacro -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/urdf
+[8.496s] copying urdf/elementbot_4w_diff.xacro -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/urdf
+[8.496s] copying urdf/elementbot_base.urdf -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/urdf
+[8.496s] copying urdf/sensors/rgbd_gazebo_harmonic.xacro -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/urdf/sensors
+[8.496s] copying urdf/sensors/lidar_gazebo_harmonic.xacro -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/urdf/sensors
+[8.497s] copying config/ros_gz_bridge_mbot.yaml -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/config
+[8.497s] copying config/ros_gz_bridge_elementbot_integrate.yaml -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/config
+[8.497s] copying config/ros_gz_bridge_elementbot_4w_integrate.yaml -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/config
+[8.498s] copying world/actor_falldown.sdf -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/world
+[8.498s] copying world/empty.sdf -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/world
+[8.498s] copying world/depot.sdf -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/world
+[8.498s] copying world/actor_demo.sdf -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/world
+[8.498s] copying world/line_follower.sdf -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/world
+[8.501s] running install_egg_info
+[8.544s] removing '/home/ctk/element_ws/install/elementbot_gazebo/lib/python3.10/site-packages/elementbot_gazebo-0.0.0-py3.10.egg-info' (and everything under it)
+[8.545s] Copying ../../build/elementbot_gazebo/elementbot_gazebo.egg-info to /home/ctk/element_ws/install/elementbot_gazebo/lib/python3.10/site-packages/elementbot_gazebo-0.0.0-py3.10.egg-info
+[8.546s] running install_scripts
+[8.993s] writing list of installed files to '/home/ctk/element_ws/build/elementbot_gazebo/install.log'
+[9.273s] Invoked command in '/home/ctk/element_ws/src/elementbot_gazebo' returned '0': PYTHONPATH=/home/ctk/element_ws/build/elementbot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ctk/element_ws/install/elementbot_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/elementbot_gazebo build --build-base /home/ctk/element_ws/build/elementbot_gazebo/build install --record /home/ctk/element_ws/build/elementbot_gazebo/install.log --single-version-externally-managed install_data

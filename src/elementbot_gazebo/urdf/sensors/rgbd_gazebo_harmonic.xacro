@@ -51,5 +51,29 @@
 			</sensor>
         </gazebo>
 
+        <!-- 新增 RGB 相機插件 -->
+        <plugin filename="libgazebo_ros_camera.so" name="rgb_plugin">
+            <ros>
+                <namespace>${prefix}</namespace>
+            </ros>
+            <camera_name>rgb</camera_name>
+            <frame_name>${prefix}_optical_frame</frame_name>
+        </plugin>
+        
+        <!-- 在深度插件中增加輸出格式校驗 -->
+        <plugin filename="libgazebo_ros_depth_camera.so" name="depth_plugin">
+            <ros>
+                <namespace>${prefix}</namespace>
+            </ros>
+            <output_type>32FC1</output_type> <!-- 強制指定輸出格式 -->
+            <min_depth>0.15</min_depth>      <!-- 最低有效深度 -->
+            <max_depth>10.0</max_depth>      <!-- 最高有效深度 -->
+            <clip>
+                <near>0.15</near>            <!-- 需與 min_depth 一致 -->
+                <far>10.0</far>              <!-- 需與 max_depth 一致 -->
+            </clip>
+        </plugin>
+
+
     </xacro:macro>
 </robot>

@@ -1,0 +1,35 @@
+running egg_info
+writing ../../build/elementbot_navigation/elementbot_navigation.egg-info/PKG-INFO
+writing dependency_links to ../../build/elementbot_navigation/elementbot_navigation.egg-info/dependency_links.txt
+writing entry points to ../../build/elementbot_navigation/elementbot_navigation.egg-info/entry_points.txt
+writing requirements to ../../build/elementbot_navigation/elementbot_navigation.egg-info/requires.txt
+writing top-level names to ../../build/elementbot_navigation/elementbot_navigation.egg-info/top_level.txt
+reading manifest file '../../build/elementbot_navigation/elementbot_navigation.egg-info/SOURCES.txt'
+writing manifest file '../../build/elementbot_navigation/elementbot_navigation.egg-info/SOURCES.txt'
+running build
+running build_py
+copying elementbot_navigation/depth_filter.py -> /home/ctk/element_ws/build/elementbot_navigation/build/lib/elementbot_navigation
+copying elementbot_navigation/__init__.py -> /home/ctk/element_ws/build/elementbot_navigation/build/lib/elementbot_navigation
+copying elementbot_navigation/check_depth.py -> /home/ctk/element_ws/build/elementbot_navigation/build/lib/elementbot_navigation
+running install
+running install_lib
+copying /home/ctk/element_ws/build/elementbot_navigation/build/lib/elementbot_navigation/depth_filter.py -> /home/ctk/element_ws/install/elementbot_navigation/lib/python3.10/site-packages/elementbot_navigation
+copying /home/ctk/element_ws/build/elementbot_navigation/build/lib/elementbot_navigation/check_depth.py -> /home/ctk/element_ws/install/elementbot_navigation/lib/python3.10/site-packages/elementbot_navigation
+byte-compiling /home/ctk/element_ws/install/elementbot_navigation/lib/python3.10/site-packages/elementbot_navigation/depth_filter.py to depth_filter.cpython-310.pyc
+byte-compiling /home/ctk/element_ws/install/elementbot_navigation/lib/python3.10/site-packages/elementbot_navigation/check_depth.py to check_depth.cpython-310.pyc
+running install_data
+copying resource/elementbot_navigation -> /home/ctk/element_ws/install/elementbot_navigation/share/ament_index/resource_index/packages
+copying package.xml -> /home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation
+copying launch/cartograph_gz.launch.py -> /home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/launch
+copying launch/rtab_rgbd_gz.launch.py -> /home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/launch
+copying launch/rtab_scan_gz.launch.py -> /home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/launch
+copying launch/nav2_bringup_gz.launch.py -> /home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/launch
+copying maps/cloister.yaml -> /home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/maps
+copying param/elementbot_nav2.yaml -> /home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/param
+running install_egg_info
+removing '/home/ctk/element_ws/install/elementbot_navigation/lib/python3.10/site-packages/elementbot_navigation-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/elementbot_navigation/elementbot_navigation.egg-info to /home/ctk/element_ws/install/elementbot_navigation/lib/python3.10/site-packages/elementbot_navigation-0.0.0-py3.10.egg-info
+running install_scripts
+Installing check_depth script to /home/ctk/element_ws/install/elementbot_navigation/lib/elementbot_navigation
+Installing depth_filter script to /home/ctk/element_ws/install/elementbot_navigation/lib/elementbot_navigation
+writing list of installed files to '/home/ctk/element_ws/build/elementbot_navigation/install.log'
