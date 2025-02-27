@@ -1,0 +1,14 @@
+# 深度處理核心參數
+RGBD/AngularUpdate: 0.1     # 旋轉門檻觸發更新 (弧度)
+RGBD/LinearUpdate: 0.1      # 平移門檻觸發更新 (公尺)
+Depth/MaxDepth: 5.0         # 最大有效深度值 (與 RViz 的 max_value 對應)
+
+# 可視化參數
+Vis/MaxDepth: 5.0           # 可視化深度最大值
+Vis/MinDepth: 0.1           # 可視化深度最小值
+Vis/ShowFeatures: true      # 顯示特徵點
+Vis/DepthNormalized: false  # 關鍵：關閉深度歸一化
+
+# 映射優化參數
+Grid/MaxGroundHeight: 0.2   # 地面高度限制
+Grid/RayTracing: true       # 啟用光線追蹤

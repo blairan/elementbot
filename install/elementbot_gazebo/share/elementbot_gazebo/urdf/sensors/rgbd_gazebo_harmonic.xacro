@@ -36,6 +36,7 @@
 					<image>
 						<width>640</width>
 						<height>480</height>
+                        <format>R8G8B8</format>
 					</image>
 					<clip>
 						<near>0.1</near>
@@ -43,7 +44,7 @@
 					</clip>
 				</camera>
 				<always_on>1</always_on>
-				<update_rate>20</update_rate>
+				<update_rate>30</update_rate>
 				<visualize>true</visualize>
 				<topic>rgbd_camera</topic>
 				<enable_metrics>true</enable_metrics>

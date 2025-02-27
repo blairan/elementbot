@@ -1,0 +1,26 @@
+[10.971s] Invoking command in '/home/ctk/element_ws/src/line_follower': PYTHONPATH=/home/ctk/element_ws/build/line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ctk/element_ws/install/line_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/line_follower build --build-base /home/ctk/element_ws/build/line_follower/build install --record /home/ctk/element_ws/build/line_follower/install.log --single-version-externally-managed install_data
+[12.683s] running egg_info
+[12.766s] writing ../../build/line_follower/line_follower.egg-info/PKG-INFO
+[12.772s] writing dependency_links to ../../build/line_follower/line_follower.egg-info/dependency_links.txt
+[12.774s] writing entry points to ../../build/line_follower/line_follower.egg-info/entry_points.txt
+[12.779s] writing requirements to ../../build/line_follower/line_follower.egg-info/requires.txt
+[12.780s] writing top-level names to ../../build/line_follower/line_follower.egg-info/top_level.txt
+[13.141s] reading manifest file '../../build/line_follower/line_follower.egg-info/SOURCES.txt'
+[13.142s] writing manifest file '../../build/line_follower/line_follower.egg-info/SOURCES.txt'
+[13.143s] running build
+[13.143s] running build_py
+[13.148s] copying line_follower/__init__.py -> /home/ctk/element_ws/build/line_follower/build/lib/line_follower
+[13.148s] copying line_follower/line_follower.py -> /home/ctk/element_ws/build/line_follower/build/lib/line_follower
+[13.148s] running install
+[13.164s] running install_lib
+[13.273s] running install_data
+[13.276s] copying resource/line_follower -> /home/ctk/element_ws/install/line_follower/share/ament_index/resource_index/packages
+[13.277s] copying package.xml -> /home/ctk/element_ws/install/line_follower/share/line_follower
+[13.278s] copying launch/elementbot_gz_line_follower.launch.py -> /home/ctk/element_ws/install/line_follower/share/line_follower/launch
+[13.295s] running install_egg_info
+[13.402s] removing '/home/ctk/element_ws/install/line_follower/lib/python3.10/site-packages/line_follower-0.0.0-py3.10.egg-info' (and everything under it)
+[13.406s] Copying ../../build/line_follower/line_follower.egg-info to /home/ctk/element_ws/install/line_follower/lib/python3.10/site-packages/line_follower-0.0.0-py3.10.egg-info
+[13.407s] running install_scripts
+[13.877s] Installing line_follower script to /home/ctk/element_ws/install/line_follower/lib/line_follower
+[13.878s] writing list of installed files to '/home/ctk/element_ws/build/line_follower/install.log'
+[14.140s] Invoked command in '/home/ctk/element_ws/src/line_follower' returned '0': PYTHONPATH=/home/ctk/element_ws/build/line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ctk/element_ws/install/line_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/line_follower build --build-base /home/ctk/element_ws/build/line_follower/build install --record /home/ctk/element_ws/build/line_follower/install.log --single-version-externally-managed install_data

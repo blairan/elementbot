@@ -11,6 +11,8 @@ def generate_launch_description():
 
     #設置use_sim_time參數
     use_sim_time = LaunchConfiguration('use_sim_time', default='true')
+    # slam = LaunchConfiguration('slam', default='False')  
+    slam = LaunchConfiguration('slam', default='True') 
     #設置map存放路徑
     map_dir = LaunchConfiguration(
         'map',
@@ -57,6 +59,7 @@ def generate_launch_description():
                 'map': map_dir,
                 'use_sim_time': use_sim_time,
                 'params_file': param_dir,
+                'slam': slam
             }.items()),
         
         Node(

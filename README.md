@@ -38,6 +38,11 @@
   - $ `ros2 launch elementbot_gazebo slamtoolbox_4w_diff_urdf_gz.launch.py`
   - $`ros2 launch slam_toolbox online_async_launch.py`
   - $ `ros2 run teleop_twist_keyboard teleop_twist_keyboard`
+- #### **一邊建圖一邊導航**![1740636904630](images/README/1740636904630.png)
+- 先將src/elementbot_navigation/launch/nav2_bringup_gz.launch.py裡slam改成True
+
+  - $ `ros2 launch elementbot_gazebo slamtoolbox_4w_diff_urdf_gz.launch.py`
+  - $ `ros2 launch elementbot_navigation nav2_bringup_gz.launch.py`
 - ### **Cartograph建圖**![1740107214178](images/README/1740107214178.png)
 - $ `ros2 launch elementbot_gazebo cartograph_4w_diff_urdf.launch.py`
 - $` ros2 launch elementbot_navigation cartograph_gz.launch.py`

@@ -1,0 +1,421 @@
+[0.415s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.415s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7b02e10e46a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b02e1221b10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b02e1221b10>>)[0m
+[0.567s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.567s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.567s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.567s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.567s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.567s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.568s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/ctk/element_ws'
+[0.568s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.568s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.569s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.569s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.569s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.569s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.569s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.569s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.569s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.633s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.633s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.633s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.633s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.633s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.633s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.634s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.634s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.634s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extensions ['ignore', 'ignore_ament_install']
+[0.634s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extension 'ignore'
+[0.634s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extension 'ignore_ament_install'
+[0.634s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extensions ['colcon_pkg']
+[0.634s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extension 'colcon_pkg'
+[0.634s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extensions ['colcon_meta']
+[0.634s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extension 'colcon_meta'
+[0.635s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extensions ['ros']
+[0.635s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extension 'ros'
+[0.635s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extensions ['cmake', 'python']
+[0.635s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extension 'cmake'
+[0.635s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extension 'python'
+[0.635s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extensions ['python_setup_py']
+[0.635s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extension 'python_setup_py'
+[0.635s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images/README) by extensions ['ignore', 'ignore_ament_install']
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images/README) by extension 'ignore'
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images/README) by extension 'ignore_ament_install'
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images/README) by extensions ['colcon_pkg']
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images/README) by extension 'colcon_pkg'
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images/README) by extensions ['colcon_meta']
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images/README) by extension 'colcon_meta'
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images/README) by extensions ['ros']
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images/README) by extension 'ros'
+[0.637s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images/README) by extensions ['cmake', 'python']
+[0.637s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images/README) by extension 'cmake'
+[0.637s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images/README) by extension 'python'
+[0.637s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images/README) by extensions ['python_setup_py']
+[0.637s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images/README) by extension 'python_setup_py'
+[0.637s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.638s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.638s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.639s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.640s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.640s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.641s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.641s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.641s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.641s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.641s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.641s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.641s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.642s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.642s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.642s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.642s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.643s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.643s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/elementbot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.643s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/elementbot_gazebo) by extension 'ignore'
+[0.643s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/elementbot_gazebo) by extension 'ignore_ament_install'
+[0.643s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/elementbot_gazebo) by extensions ['colcon_pkg']
+[0.644s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/elementbot_gazebo) by extension 'colcon_pkg'
+[0.644s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/elementbot_gazebo) by extensions ['colcon_meta']
+[0.644s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/elementbot_gazebo) by extension 'colcon_meta'
+[0.644s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/elementbot_gazebo) by extensions ['ros']
+[0.644s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/elementbot_gazebo) by extension 'ros'
+[0.650s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/elementbot_gazebo' with type 'ros.ament_python' and name 'elementbot_gazebo'[0m
+[0.650s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/elementbot_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.650s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/elementbot_navigation) by extension 'ignore'
+[0.651s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/elementbot_navigation) by extension 'ignore_ament_install'
+[0.651s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/elementbot_navigation) by extensions ['colcon_pkg']
+[0.651s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/elementbot_navigation) by extension 'colcon_pkg'
+[0.651s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/elementbot_navigation) by extensions ['colcon_meta']
+[0.651s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/elementbot_navigation) by extension 'colcon_meta'
+[0.651s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/elementbot_navigation) by extensions ['ros']
+[0.651s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/elementbot_navigation) by extension 'ros'
+[0.652s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/elementbot_navigation' with type 'ros.ament_python' and name 'elementbot_navigation'[0m
+[0.654s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/elementbot_urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.654s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/elementbot_urdf) by extension 'ignore'
+[0.654s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/elementbot_urdf) by extension 'ignore_ament_install'
+[0.654s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/elementbot_urdf) by extensions ['colcon_pkg']
+[0.654s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/elementbot_urdf) by extension 'colcon_pkg'
+[0.655s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/elementbot_urdf) by extensions ['colcon_meta']
+[0.655s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/elementbot_urdf) by extension 'colcon_meta'
+[0.655s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/elementbot_urdf) by extensions ['ros']
+[0.655s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/elementbot_urdf) by extension 'ros'
+[0.659s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/elementbot_urdf' with type 'ros.ament_python' and name 'elementbot_urdf'[0m
+[0.660s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fall_down_yolov5) by extensions ['ignore', 'ignore_ament_install']
+[0.661s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fall_down_yolov5) by extension 'ignore'
+[0.661s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fall_down_yolov5) by extension 'ignore_ament_install'
+[0.662s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fall_down_yolov5) by extensions ['colcon_pkg']
+[0.662s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fall_down_yolov5) by extension 'colcon_pkg'
+[0.662s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fall_down_yolov5) by extensions ['colcon_meta']
+[0.662s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fall_down_yolov5) by extension 'colcon_meta'
+[0.662s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fall_down_yolov5) by extensions ['ros']
+[0.662s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fall_down_yolov5) by extension 'ros'
+[0.665s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/fall_down_yolov5' with type 'ros.ament_python' and name 'fall_down_yolov5'[0m
+[0.666s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/line_follower) by extensions ['ignore', 'ignore_ament_install']
+[0.666s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/line_follower) by extension 'ignore'
+[0.666s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/line_follower) by extension 'ignore_ament_install'
+[0.666s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/line_follower) by extensions ['colcon_pkg']
+[0.666s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/line_follower) by extension 'colcon_pkg'
+[0.666s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/line_follower) by extensions ['colcon_meta']
+[0.666s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/line_follower) by extension 'colcon_meta'
+[0.666s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/line_follower) by extensions ['ros']
+[0.666s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/line_follower) by extension 'ros'
+[0.667s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/line_follower' with type 'ros.ament_python' and name 'line_follower'[0m
+[0.667s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo5_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.668s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo5_sim) by extension 'ignore'
+[0.668s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo5_sim) by extension 'ignore_ament_install'
+[0.668s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo5_sim) by extensions ['colcon_pkg']
+[0.668s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo5_sim) by extension 'colcon_pkg'
+[0.668s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo5_sim) by extensions ['colcon_meta']
+[0.668s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo5_sim) by extension 'colcon_meta'
+[0.668s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo5_sim) by extensions ['ros']
+[0.668s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo5_sim) by extension 'ros'
+[0.668s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo5_sim) by extensions ['cmake', 'python']
+[0.668s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo5_sim) by extension 'cmake'
+[0.668s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo5_sim) by extension 'python'
+[0.668s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo5_sim) by extensions ['python_setup_py']
+[0.668s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo5_sim) by extension 'python_setup_py'
+[0.668s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo5_sim/yolov5_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.668s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo5_sim/yolov5_ros2) by extension 'ignore'
+[0.668s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo5_sim/yolov5_ros2) by extension 'ignore_ament_install'
+[0.668s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo5_sim/yolov5_ros2) by extensions ['colcon_pkg']
+[0.669s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo5_sim/yolov5_ros2) by extension 'colcon_pkg'
+[0.669s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo5_sim/yolov5_ros2) by extensions ['colcon_meta']
+[0.669s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo5_sim/yolov5_ros2) by extension 'colcon_meta'
+[0.669s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo5_sim/yolov5_ros2) by extensions ['ros']
+[0.669s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/yolo5_sim/yolov5_ros2) by extension 'ros'
+[0.672s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/yolo5_sim/yolov5_ros2' with type 'ros.ament_python' and name 'yolov5_ros2'[0m
+[0.672s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.673s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.673s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.673s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.673s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.729s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.730s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.738s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 6 installed packages in /home/ctk/element_ws/install[0m
+[0.745s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 430 installed packages in /opt/ros/humble[0m
+[0.751s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.875s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'elementbot_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.876s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'elementbot_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.876s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'elementbot_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.876s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'elementbot_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.876s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'elementbot_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.876s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'elementbot_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.876s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'elementbot_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.876s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'elementbot_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.876s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'elementbot_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.876s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'elementbot_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ctk/element_ws/build/elementbot_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ctk/element_ws/install/elementbot_gazebo', 'merge_install': False, 'path': '/home/ctk/element_ws/src/elementbot_gazebo', 'symlink_install': False, 'test_result_base': None}[0m
+[0.879s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'elementbot_navigation' build argument 'cmake_args' from command line to 'None'
+[0.879s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'elementbot_navigation' build argument 'cmake_target' from command line to 'None'
+[0.880s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'elementbot_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.880s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'elementbot_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.880s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'elementbot_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.880s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'elementbot_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.880s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'elementbot_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.880s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'elementbot_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.880s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'elementbot_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.880s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'elementbot_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ctk/element_ws/build/elementbot_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ctk/element_ws/install/elementbot_navigation', 'merge_install': False, 'path': '/home/ctk/element_ws/src/elementbot_navigation', 'symlink_install': False, 'test_result_base': None}[0m
+[0.881s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'elementbot_urdf' build argument 'cmake_args' from command line to 'None'
+[0.881s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'elementbot_urdf' build argument 'cmake_target' from command line to 'None'
+[0.881s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'elementbot_urdf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.881s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'elementbot_urdf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.881s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'elementbot_urdf' build argument 'cmake_clean_first' from command line to 'False'
+[0.881s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'elementbot_urdf' build argument 'cmake_force_configure' from command line to 'False'
+[0.881s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'elementbot_urdf' build argument 'ament_cmake_args' from command line to 'None'
+[0.881s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'elementbot_urdf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.881s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'elementbot_urdf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.881s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'elementbot_urdf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ctk/element_ws/build/elementbot_urdf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ctk/element_ws/install/elementbot_urdf', 'merge_install': False, 'path': '/home/ctk/element_ws/src/elementbot_urdf', 'symlink_install': False, 'test_result_base': None}[0m
+[0.882s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fall_down_yolov5' build argument 'cmake_args' from command line to 'None'
+[0.883s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fall_down_yolov5' build argument 'cmake_target' from command line to 'None'
+[0.883s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fall_down_yolov5' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.883s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fall_down_yolov5' build argument 'cmake_clean_cache' from command line to 'False'
+[0.883s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fall_down_yolov5' build argument 'cmake_clean_first' from command line to 'False'
+[0.883s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fall_down_yolov5' build argument 'cmake_force_configure' from command line to 'False'
+[0.883s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fall_down_yolov5' build argument 'ament_cmake_args' from command line to 'None'
+[0.883s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fall_down_yolov5' build argument 'catkin_cmake_args' from command line to 'None'
+[0.883s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fall_down_yolov5' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.883s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'fall_down_yolov5' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ctk/element_ws/build/fall_down_yolov5', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ctk/element_ws/install/fall_down_yolov5', 'merge_install': False, 'path': '/home/ctk/element_ws/src/fall_down_yolov5', 'symlink_install': False, 'test_result_base': None}[0m
+[0.885s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'line_follower' build argument 'cmake_args' from command line to 'None'
+[0.885s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'line_follower' build argument 'cmake_target' from command line to 'None'
+[0.885s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'line_follower' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.885s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'line_follower' build argument 'cmake_clean_cache' from command line to 'False'
+[0.885s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'line_follower' build argument 'cmake_clean_first' from command line to 'False'
+[0.885s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'line_follower' build argument 'cmake_force_configure' from command line to 'False'
+[0.885s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'line_follower' build argument 'ament_cmake_args' from command line to 'None'
+[0.885s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'line_follower' build argument 'catkin_cmake_args' from command line to 'None'
+[0.885s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'line_follower' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.885s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'line_follower' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ctk/element_ws/build/line_follower', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ctk/element_ws/install/line_follower', 'merge_install': False, 'path': '/home/ctk/element_ws/src/line_follower', 'symlink_install': False, 'test_result_base': None}[0m
+[0.887s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov5_ros2' build argument 'cmake_args' from command line to 'None'
+[0.887s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov5_ros2' build argument 'cmake_target' from command line to 'None'
+[0.887s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov5_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.887s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov5_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.887s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov5_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.888s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov5_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.888s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov5_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.888s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov5_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.888s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov5_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.888s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'yolov5_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ctk/element_ws/build/yolov5_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ctk/element_ws/install/yolov5_ros2', 'merge_install': False, 'path': '/home/ctk/element_ws/src/yolo5_sim/yolov5_ros2', 'symlink_install': False, 'test_result_base': None}[0m
+[0.888s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.893s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.896s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/ctk/element_ws/src/elementbot_gazebo' with build type 'ament_python'
+[0.897s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('elementbot_gazebo', 'ament_prefix_path')
+[0.911s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.912s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/hook/ament_prefix_path.ps1'
+[0.914s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/hook/ament_prefix_path.dsv'
+[0.915s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/hook/ament_prefix_path.sh'
+[0.919s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.920s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.935s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/ctk/element_ws/src/elementbot_navigation' with build type 'ament_python'
+[0.937s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('elementbot_navigation', 'ament_prefix_path')
+[0.938s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/hook/ament_prefix_path.ps1'
+[0.943s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/hook/ament_prefix_path.dsv'
+[0.946s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/hook/ament_prefix_path.sh'
+[0.949s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.951s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.966s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/ctk/element_ws/src/elementbot_urdf' with build type 'ament_python'
+[0.967s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('elementbot_urdf', 'ament_prefix_path')
+[0.969s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/hook/ament_prefix_path.ps1'
+[0.975s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/hook/ament_prefix_path.dsv'
+[0.980s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/hook/ament_prefix_path.sh'
+[0.982s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.983s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.008s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/ctk/element_ws/src/fall_down_yolov5' with build type 'ament_python'
+[1.010s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('fall_down_yolov5', 'ament_prefix_path')
+[1.010s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ctk/element_ws/install/fall_down_yolov5/share/fall_down_yolov5/hook/ament_prefix_path.ps1'
+[1.014s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ctk/element_ws/install/fall_down_yolov5/share/fall_down_yolov5/hook/ament_prefix_path.dsv'
+[1.015s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ctk/element_ws/install/fall_down_yolov5/share/fall_down_yolov5/hook/ament_prefix_path.sh'
+[1.020s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.021s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.037s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/ctk/element_ws/src/line_follower' with build type 'ament_python'
+[1.041s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('line_follower', 'ament_prefix_path')
+[1.043s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ctk/element_ws/install/line_follower/share/line_follower/hook/ament_prefix_path.ps1'
+[1.048s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ctk/element_ws/install/line_follower/share/line_follower/hook/ament_prefix_path.dsv'
+[1.052s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ctk/element_ws/install/line_follower/share/line_follower/hook/ament_prefix_path.sh'
+[1.057s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.058s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.086s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/ctk/element_ws/src/yolo5_sim/yolov5_ros2' with build type 'ament_python'
+[1.090s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('yolov5_ros2', 'ament_prefix_path')
+[1.094s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ctk/element_ws/install/yolov5_ros2/share/yolov5_ros2/hook/ament_prefix_path.ps1'
+[1.101s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ctk/element_ws/install/yolov5_ros2/share/yolov5_ros2/hook/ament_prefix_path.dsv'
+[1.109s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ctk/element_ws/install/yolov5_ros2/share/yolov5_ros2/hook/ament_prefix_path.sh'
+[1.117s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.118s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[2.281s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/ctk/element_ws/src/elementbot_gazebo'
+[2.283s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.284s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[3.343s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/ctk/element_ws/src/elementbot_navigation'
+[3.346s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.346s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[4.670s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/ctk/element_ws/src/elementbot_urdf'
+[4.672s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.672s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[5.740s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mWARNING[0m [33mPackage 'fall_down_yolov5' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)[0m
+[5.742s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/ctk/element_ws/src/fall_down_yolov5'
+[5.744s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.744s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[7.100s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/ctk/element_ws/src/line_follower'
+[7.102s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.104s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[8.326s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mWARNING[0m [33mPackage 'yolov5_ros2' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)[0m
+[8.330s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/ctk/element_ws/src/yolo5_sim/yolov5_ros2'
+[8.331s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.332s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[11.691s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ctk/element_ws/src/yolo5_sim/yolov5_ros2': PYTHONPATH=/home/ctk/element_ws/build/yolov5_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ctk/element_ws/install/yolov5_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolov5_ros2 build --build-base /home/ctk/element_ws/build/yolov5_ros2/build install --record /home/ctk/element_ws/build/yolov5_ros2/install.log --single-version-externally-managed install_data[0m
+[12.349s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ctk/element_ws/src/line_follower': PYTHONPATH=/home/ctk/element_ws/build/line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ctk/element_ws/install/line_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/line_follower build --build-base /home/ctk/element_ws/build/line_follower/build install --record /home/ctk/element_ws/build/line_follower/install.log --single-version-externally-managed install_data[0m
+[12.370s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ctk/element_ws/src/elementbot_navigation': PYTHONPATH=/home/ctk/element_ws/build/elementbot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ctk/element_ws/install/elementbot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/elementbot_navigation build --build-base /home/ctk/element_ws/build/elementbot_navigation/build install --record /home/ctk/element_ws/build/elementbot_navigation/install.log --single-version-externally-managed install_data[0m
+[12.834s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ctk/element_ws/src/elementbot_gazebo': PYTHONPATH=/home/ctk/element_ws/build/elementbot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ctk/element_ws/install/elementbot_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/elementbot_gazebo build --build-base /home/ctk/element_ws/build/elementbot_gazebo/build install --record /home/ctk/element_ws/build/elementbot_gazebo/install.log --single-version-externally-managed install_data[0m
+[13.091s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ctk/element_ws/src/elementbot_urdf': PYTHONPATH=/home/ctk/element_ws/build/elementbot_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ctk/element_ws/install/elementbot_urdf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/elementbot_urdf build --build-base /home/ctk/element_ws/build/elementbot_urdf/build install --record /home/ctk/element_ws/build/elementbot_urdf/install.log --single-version-externally-managed install_data[0m
+[14.052s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ctk/element_ws/src/fall_down_yolov5': PYTHONPATH=/home/ctk/element_ws/build/fall_down_yolov5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ctk/element_ws/install/fall_down_yolov5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fall_down_yolov5 build --build-base /home/ctk/element_ws/build/fall_down_yolov5/build install --record /home/ctk/element_ws/build/fall_down_yolov5/install.log --single-version-externally-managed install_data[0m
+[14.680s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ctk/element_ws/src/yolo5_sim/yolov5_ros2' returned '0': PYTHONPATH=/home/ctk/element_ws/build/yolov5_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ctk/element_ws/install/yolov5_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolov5_ros2 build --build-base /home/ctk/element_ws/build/yolov5_ros2/build install --record /home/ctk/element_ws/build/yolov5_ros2/install.log --single-version-externally-managed install_data[0m
+[14.688s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/yolov5_ros2' for CMake module files
+[14.689s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/yolov5_ros2' for CMake config files
+[14.691s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/yolov5_ros2/lib'
+[14.692s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/yolov5_ros2/bin'
+[14.692s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/yolov5_ros2/lib/pkgconfig/yolov5_ros2.pc'
+[14.692s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/yolov5_ros2/lib/python3.10/site-packages'
+[14.693s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('yolov5_ros2', 'pythonpath')
+[14.694s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ctk/element_ws/install/yolov5_ros2/share/yolov5_ros2/hook/pythonpath.ps1'
+[14.696s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ctk/element_ws/install/yolov5_ros2/share/yolov5_ros2/hook/pythonpath.dsv'
+[14.699s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ctk/element_ws/install/yolov5_ros2/share/yolov5_ros2/hook/pythonpath.sh'
+[14.703s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/yolov5_ros2/bin'
+[14.704s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(yolov5_ros2)
+[14.706s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ctk/element_ws/install/yolov5_ros2/share/yolov5_ros2/package.ps1'
+[14.713s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ctk/element_ws/install/yolov5_ros2/share/yolov5_ros2/package.dsv'
+[14.719s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ctk/element_ws/install/yolov5_ros2/share/yolov5_ros2/package.sh'
+[14.723s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ctk/element_ws/install/yolov5_ros2/share/yolov5_ros2/package.bash'
+[14.729s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ctk/element_ws/install/yolov5_ros2/share/yolov5_ros2/package.zsh'
+[14.733s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ctk/element_ws/install/yolov5_ros2/share/colcon-core/packages/yolov5_ros2)
+[14.908s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/line_follower' for CMake module files
+[14.912s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ctk/element_ws/src/line_follower' returned '0': PYTHONPATH=/home/ctk/element_ws/build/line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ctk/element_ws/install/line_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/line_follower build --build-base /home/ctk/element_ws/build/line_follower/build install --record /home/ctk/element_ws/build/line_follower/install.log --single-version-externally-managed install_data[0m
+[14.913s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/line_follower' for CMake config files
+[14.918s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/line_follower/lib'
+[14.919s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/line_follower/bin'
+[14.919s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/line_follower/lib/pkgconfig/line_follower.pc'
+[14.919s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/line_follower/lib/python3.10/site-packages'
+[14.920s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('line_follower', 'pythonpath')
+[14.925s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ctk/element_ws/install/line_follower/share/line_follower/hook/pythonpath.ps1'
+[14.929s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ctk/element_ws/install/line_follower/share/line_follower/hook/pythonpath.dsv'
+[14.930s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ctk/element_ws/install/line_follower/share/line_follower/hook/pythonpath.sh'
+[14.938s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/line_follower/bin'
+[14.940s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(line_follower)
+[14.942s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ctk/element_ws/install/line_follower/share/line_follower/package.ps1'
+[14.946s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ctk/element_ws/install/line_follower/share/line_follower/package.dsv'
+[14.947s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ctk/element_ws/install/line_follower/share/line_follower/package.sh'
+[14.951s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ctk/element_ws/install/line_follower/share/line_follower/package.bash'
+[14.966s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ctk/element_ws/install/line_follower/share/line_follower/package.zsh'
+[14.972s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ctk/element_ws/install/line_follower/share/colcon-core/packages/line_follower)
+[15.559s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/elementbot_urdf' for CMake module files
+[15.563s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/elementbot_urdf' for CMake config files
+[15.565s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/elementbot_urdf/lib'
+[15.565s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/elementbot_urdf/bin'
+[15.562s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ctk/element_ws/src/elementbot_urdf' returned '0': PYTHONPATH=/home/ctk/element_ws/build/elementbot_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ctk/element_ws/install/elementbot_urdf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/elementbot_urdf build --build-base /home/ctk/element_ws/build/elementbot_urdf/build install --record /home/ctk/element_ws/build/elementbot_urdf/install.log --single-version-externally-managed install_data[0m
+[15.571s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/elementbot_urdf/lib/pkgconfig/elementbot_urdf.pc'
+[15.577s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/elementbot_urdf/lib/python3.10/site-packages'
+[15.578s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('elementbot_urdf', 'pythonpath')
+[15.579s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/hook/pythonpath.ps1'
+[15.589s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/hook/pythonpath.dsv'
+[15.604s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/hook/pythonpath.sh'
+[15.625s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/elementbot_urdf/bin'
+[15.630s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(elementbot_urdf)
+[15.631s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/package.ps1'
+[15.647s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/package.dsv'
+[15.650s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/package.sh'
+[15.660s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/package.bash'
+[15.661s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/package.zsh'
+[15.664s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ctk/element_ws/install/elementbot_urdf/share/colcon-core/packages/elementbot_urdf)
+[16.562s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/elementbot_navigation' for CMake module files
+[16.567s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ctk/element_ws/src/elementbot_navigation' returned '0': PYTHONPATH=/home/ctk/element_ws/build/elementbot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ctk/element_ws/install/elementbot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/elementbot_navigation build --build-base /home/ctk/element_ws/build/elementbot_navigation/build install --record /home/ctk/element_ws/build/elementbot_navigation/install.log --single-version-externally-managed install_data[0m
+[16.571s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/elementbot_navigation' for CMake config files
+[16.574s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/elementbot_navigation/lib'
+[16.579s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/elementbot_navigation/bin'
+[16.580s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/elementbot_navigation/lib/pkgconfig/elementbot_navigation.pc'
+[16.582s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/elementbot_navigation/lib/python3.10/site-packages'
+[16.590s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('elementbot_navigation', 'pythonpath')
+[16.594s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/hook/pythonpath.ps1'
+[16.604s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/hook/pythonpath.dsv'
+[16.608s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/hook/pythonpath.sh'
+[16.611s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/elementbot_navigation/bin'
+[16.612s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(elementbot_navigation)
+[16.616s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/package.ps1'
+[16.621s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/package.dsv'
+[16.624s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/package.sh'
+[16.625s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/package.bash'
+[16.626s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/package.zsh'
+[16.628s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ctk/element_ws/install/elementbot_navigation/share/colcon-core/packages/elementbot_navigation)
+[16.940s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/elementbot_gazebo' for CMake module files
+[16.943s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ctk/element_ws/src/elementbot_gazebo' returned '0': PYTHONPATH=/home/ctk/element_ws/build/elementbot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ctk/element_ws/install/elementbot_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/elementbot_gazebo build --build-base /home/ctk/element_ws/build/elementbot_gazebo/build install --record /home/ctk/element_ws/build/elementbot_gazebo/install.log --single-version-externally-managed install_data[0m
+[16.945s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/elementbot_gazebo' for CMake config files
+[16.948s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/elementbot_gazebo/lib'
+[16.949s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/elementbot_gazebo/bin'
+[16.951s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/elementbot_gazebo/lib/pkgconfig/elementbot_gazebo.pc'
+[16.953s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/elementbot_gazebo/lib/python3.10/site-packages'
+[16.954s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('elementbot_gazebo', 'pythonpath')
+[16.955s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/hook/pythonpath.ps1'
+[16.958s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/hook/pythonpath.dsv'
+[16.963s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/hook/pythonpath.sh'
+[16.966s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/elementbot_gazebo/bin'
+[16.966s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(elementbot_gazebo)
+[16.967s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/package.ps1'
+[16.969s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/package.dsv'
+[16.973s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/package.sh'
+[16.978s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/package.bash'
+[16.979s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/package.zsh'
+[16.982s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ctk/element_ws/install/elementbot_gazebo/share/colcon-core/packages/elementbot_gazebo)
+[17.031s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/fall_down_yolov5' for CMake module files
+[17.036s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/fall_down_yolov5' for CMake config files
+[17.038s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ctk/element_ws/src/fall_down_yolov5' returned '0': PYTHONPATH=/home/ctk/element_ws/build/fall_down_yolov5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ctk/element_ws/install/fall_down_yolov5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fall_down_yolov5 build --build-base /home/ctk/element_ws/build/fall_down_yolov5/build install --record /home/ctk/element_ws/build/fall_down_yolov5/install.log --single-version-externally-managed install_data[0m
+[17.042s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/fall_down_yolov5/lib'
+[17.044s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/fall_down_yolov5/bin'
+[17.045s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/fall_down_yolov5/lib/pkgconfig/fall_down_yolov5.pc'
+[17.047s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/fall_down_yolov5/lib/python3.10/site-packages'
+[17.049s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('fall_down_yolov5', 'pythonpath')
+[17.058s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ctk/element_ws/install/fall_down_yolov5/share/fall_down_yolov5/hook/pythonpath.ps1'
+[17.062s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ctk/element_ws/install/fall_down_yolov5/share/fall_down_yolov5/hook/pythonpath.dsv'
+[17.065s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ctk/element_ws/install/fall_down_yolov5/share/fall_down_yolov5/hook/pythonpath.sh'
+[17.069s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ctk/element_ws/install/fall_down_yolov5/bin'
+[17.070s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(fall_down_yolov5)
+[17.071s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ctk/element_ws/install/fall_down_yolov5/share/fall_down_yolov5/package.ps1'
+[17.076s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ctk/element_ws/install/fall_down_yolov5/share/fall_down_yolov5/package.dsv'
+[17.086s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ctk/element_ws/install/fall_down_yolov5/share/fall_down_yolov5/package.sh'
+[17.088s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ctk/element_ws/install/fall_down_yolov5/share/fall_down_yolov5/package.bash'
+[17.089s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ctk/element_ws/install/fall_down_yolov5/share/fall_down_yolov5/package.zsh'
+[17.091s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ctk/element_ws/install/fall_down_yolov5/share/colcon-core/packages/fall_down_yolov5)
+[17.093s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[17.096s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[17.098s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[17.100s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[17.129s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[17.130s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[17.130s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[17.228s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[17.230s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ctk/element_ws/install/local_setup.ps1'
+[17.240s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/ctk/element_ws/install/_local_setup_util_ps1.py'
+[17.248s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ctk/element_ws/install/setup.ps1'
+[17.257s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ctk/element_ws/install/local_setup.sh'
+[17.259s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/ctk/element_ws/install/_local_setup_util_sh.py'
+[17.263s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ctk/element_ws/install/setup.sh'
+[17.274s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ctk/element_ws/install/local_setup.bash'
+[17.276s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ctk/element_ws/install/setup.bash'
+[17.278s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ctk/element_ws/install/local_setup.zsh'
+[17.280s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ctk/element_ws/install/setup.zsh'

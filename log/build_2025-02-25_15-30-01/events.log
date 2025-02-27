@@ -1,0 +1,367 @@
+[0.000000] (-) TimerEvent: {}
+[0.002453] (elementbot_gazebo) JobQueued: {'identifier': 'elementbot_gazebo', 'dependencies': OrderedDict()}
+[0.002612] (elementbot_navigation) JobQueued: {'identifier': 'elementbot_navigation', 'dependencies': OrderedDict()}
+[0.002667] (elementbot_urdf) JobQueued: {'identifier': 'elementbot_urdf', 'dependencies': OrderedDict()}
+[0.002698] (fall_down_yolov5) JobQueued: {'identifier': 'fall_down_yolov5', 'dependencies': OrderedDict()}
+[0.002725] (line_follower) JobQueued: {'identifier': 'line_follower', 'dependencies': OrderedDict()}
+[0.002753] (yolov5_ros2) JobQueued: {'identifier': 'yolov5_ros2', 'dependencies': OrderedDict()}
+[0.002785] (elementbot_gazebo) JobStarted: {'identifier': 'elementbot_gazebo'}
+[0.042821] (elementbot_navigation) JobStarted: {'identifier': 'elementbot_navigation'}
+[0.082237] (elementbot_urdf) JobStarted: {'identifier': 'elementbot_urdf'}
+[0.095878] (-) TimerEvent: {}
+[0.118829] (fall_down_yolov5) JobStarted: {'identifier': 'fall_down_yolov5'}
+[0.170766] (line_follower) JobStarted: {'identifier': 'line_follower'}
+[0.196369] (-) TimerEvent: {}
+[0.217946] (yolov5_ros2) JobStarted: {'identifier': 'yolov5_ros2'}
+[0.296508] (-) TimerEvent: {}
+[0.401511] (-) TimerEvent: {}
+[0.503477] (-) TimerEvent: {}
+[0.606927] (-) TimerEvent: {}
+[0.710073] (-) TimerEvent: {}
+[0.812068] (-) TimerEvent: {}
+[0.914793] (-) TimerEvent: {}
+[1.018038] (-) TimerEvent: {}
+[1.120079] (-) TimerEvent: {}
+[1.221392] (-) TimerEvent: {}
+[1.324441] (-) TimerEvent: {}
+[1.430120] (-) TimerEvent: {}
+[1.533971] (-) TimerEvent: {}
+[1.634689] (-) TimerEvent: {}
+[1.736137] (-) TimerEvent: {}
+[1.837555] (-) TimerEvent: {}
+[1.939617] (-) TimerEvent: {}
+[2.042172] (-) TimerEvent: {}
+[2.144124] (-) TimerEvent: {}
+[2.246303] (-) TimerEvent: {}
+[2.349857] (-) TimerEvent: {}
+[2.453199] (-) TimerEvent: {}
+[2.556798] (-) TimerEvent: {}
+[2.658386] (-) TimerEvent: {}
+[2.759464] (-) TimerEvent: {}
+[2.862049] (-) TimerEvent: {}
+[2.963877] (-) TimerEvent: {}
+[3.066102] (-) TimerEvent: {}
+[3.167949] (-) TimerEvent: {}
+[3.269184] (-) TimerEvent: {}
+[3.371498] (-) TimerEvent: {}
+[3.474017] (-) TimerEvent: {}
+[3.578607] (-) TimerEvent: {}
+[3.681963] (-) TimerEvent: {}
+[3.785753] (-) TimerEvent: {}
+[3.887443] (-) TimerEvent: {}
+[3.989701] (-) TimerEvent: {}
+[4.093350] (-) TimerEvent: {}
+[4.199116] (-) TimerEvent: {}
+[4.300717] (-) TimerEvent: {}
+[4.406345] (-) TimerEvent: {}
+[4.508669] (-) TimerEvent: {}
+[4.617728] (-) TimerEvent: {}
+[4.723578] (-) TimerEvent: {}
+[4.828089] (-) TimerEvent: {}
+[4.931727] (-) TimerEvent: {}
+[5.037298] (-) TimerEvent: {}
+[5.142205] (-) TimerEvent: {}
+[5.243466] (-) TimerEvent: {}
+[5.345464] (-) TimerEvent: {}
+[5.450590] (-) TimerEvent: {}
+[5.552407] (-) TimerEvent: {}
+[5.656138] (-) TimerEvent: {}
+[5.757491] (-) TimerEvent: {}
+[5.859402] (-) TimerEvent: {}
+[5.959989] (-) TimerEvent: {}
+[6.060513] (-) TimerEvent: {}
+[6.161252] (-) TimerEvent: {}
+[6.262009] (-) TimerEvent: {}
+[6.365511] (-) TimerEvent: {}
+[6.467185] (-) TimerEvent: {}
+[6.569075] (-) TimerEvent: {}
+[6.670937] (-) TimerEvent: {}
+[6.772244] (-) TimerEvent: {}
+[6.876797] (-) TimerEvent: {}
+[6.988949] (-) TimerEvent: {}
+[7.090515] (-) TimerEvent: {}
+[7.191839] (-) TimerEvent: {}
+[7.293753] (-) TimerEvent: {}
+[7.394591] (-) TimerEvent: {}
+[7.502894] (-) TimerEvent: {}
+[7.603763] (-) TimerEvent: {}
+[7.710260] (-) TimerEvent: {}
+[7.816385] (-) TimerEvent: {}
+[7.931495] (-) TimerEvent: {}
+[8.033059] (-) TimerEvent: {}
+[8.141640] (-) TimerEvent: {}
+[8.247245] (-) TimerEvent: {}
+[8.352385] (-) TimerEvent: {}
+[8.463119] (-) TimerEvent: {}
+[8.569432] (-) TimerEvent: {}
+[8.677082] (-) TimerEvent: {}
+[8.781191] (-) TimerEvent: {}
+[8.882232] (-) TimerEvent: {}
+[8.986666] (-) TimerEvent: {}
+[9.092060] (-) TimerEvent: {}
+[9.200844] (-) TimerEvent: {}
+[9.301505] (-) TimerEvent: {}
+[9.403113] (-) TimerEvent: {}
+[9.519797] (-) TimerEvent: {}
+[9.621189] (-) TimerEvent: {}
+[9.728903] (-) TimerEvent: {}
+[9.833949] (-) TimerEvent: {}
+[9.937647] (-) TimerEvent: {}
+[10.045542] (-) TimerEvent: {}
+[10.153775] (-) TimerEvent: {}
+[10.187443] (yolov5_ros2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/yolov5_ros2', 'build', '--build-base', '/home/ctk/element_ws/build/yolov5_ros2/build', 'install', '--record', '/home/ctk/element_ws/build/yolov5_ros2/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ctk/element_ws/src/yolo5_sim/yolov5_ros2', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_TW:zh', 'USER': 'ctk', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ctk', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.95.0', 'DESKTOP_SESSION': 'ubuntu-xorg', 'CONNEXTDDS_DIR': '/opt/rti.com/rti_connext_dds-6.0.1', 'DEBUGPY_ADAPTER_ENDPOINTS': '/home/ctk/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-98cd2cbf19902856.txt', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'NDDSHOME': '/opt/rti.com/rti_connext_dds-6.0.1', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1350', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1646', 'BUNDLED_DEBUGPY_PATH': '/home/ctk/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3910', 'COLCON_PREFIX_PATH': '/home/ctk/element_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ctk', 'JOURNAL_STREAM': '8:12672', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ctk', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/ctk/.local/bin:/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/humble/bin:/home/ctk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ctk/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/tk:@/tmp/.ICE-unix/1615,unix/tk:/tmp/.ICE-unix/1615', 'INVOCATION_ID': 'cee6b6faa72c41fba89b9cffcb81d369', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'zh_TW.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-4a6dcc99e9.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ctk/element_ws/install/yolov5_ros2:/home/ctk/element_ws/install/line_follower:/home/ctk/element_ws/install/fall_down_yolov5:/home/ctk/element_ws/install/elementbot_urdf:/home/ctk/element_ws/install/elementbot_navigation:/home/ctk/element_ws/install/elementbot_gazebo:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'CONNEXTDDS_ARCH': 'x64Linux4gcc7.3.0', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ctk/element_ws/build/yolov5_ros2', 'TURTLEBOT3_MODEL': 'waffle', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ctk/element_ws/build/yolov5_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ctk/element_ws/install/yolov5_ros2/lib/python3.10/site-packages:/home/ctk/element_ws/install/yolov5_ros2/lib/python3.10/site-packages:/home/ctk/element_ws/install/line_follower/lib/python3.10/site-packages:/home/ctk/element_ws/install/fall_down_yolov5/lib/python3.10/site-packages:/home/ctk/element_ws/install/elementbot_urdf/lib/python3.10/site-packages:/home/ctk/element_ws/install/elementbot_navigation/lib/python3.10/site-packages:/home/ctk/element_ws/install/elementbot_gazebo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[10.259097] (-) TimerEvent: {}
+[10.283616] (elementbot_urdf) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/elementbot_urdf', 'build', '--build-base', '/home/ctk/element_ws/build/elementbot_urdf/build', 'install', '--record', '/home/ctk/element_ws/build/elementbot_urdf/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ctk/element_ws/src/elementbot_urdf', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_TW:zh', 'USER': 'ctk', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ctk', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.95.0', 'DESKTOP_SESSION': 'ubuntu-xorg', 'CONNEXTDDS_DIR': '/opt/rti.com/rti_connext_dds-6.0.1', 'DEBUGPY_ADAPTER_ENDPOINTS': '/home/ctk/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-98cd2cbf19902856.txt', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'NDDSHOME': '/opt/rti.com/rti_connext_dds-6.0.1', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1350', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1646', 'BUNDLED_DEBUGPY_PATH': '/home/ctk/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3910', 'COLCON_PREFIX_PATH': '/home/ctk/element_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ctk', 'JOURNAL_STREAM': '8:12672', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ctk', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/ctk/.local/bin:/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/humble/bin:/home/ctk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ctk/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/tk:@/tmp/.ICE-unix/1615,unix/tk:/tmp/.ICE-unix/1615', 'INVOCATION_ID': 'cee6b6faa72c41fba89b9cffcb81d369', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'zh_TW.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-4a6dcc99e9.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ctk/element_ws/install/yolov5_ros2:/home/ctk/element_ws/install/line_follower:/home/ctk/element_ws/install/fall_down_yolov5:/home/ctk/element_ws/install/elementbot_urdf:/home/ctk/element_ws/install/elementbot_navigation:/home/ctk/element_ws/install/elementbot_gazebo:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'CONNEXTDDS_ARCH': 'x64Linux4gcc7.3.0', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ctk/element_ws/build/elementbot_urdf', 'TURTLEBOT3_MODEL': 'waffle', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ctk/element_ws/build/elementbot_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ctk/element_ws/install/elementbot_urdf/lib/python3.10/site-packages:/home/ctk/element_ws/install/yolov5_ros2/lib/python3.10/site-packages:/home/ctk/element_ws/install/line_follower/lib/python3.10/site-packages:/home/ctk/element_ws/install/fall_down_yolov5/lib/python3.10/site-packages:/home/ctk/element_ws/install/elementbot_urdf/lib/python3.10/site-packages:/home/ctk/element_ws/install/elementbot_navigation/lib/python3.10/site-packages:/home/ctk/element_ws/install/elementbot_gazebo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[10.360075] (-) TimerEvent: {}
+[10.465993] (-) TimerEvent: {}
+[10.500748] (elementbot_gazebo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/elementbot_gazebo', 'build', '--build-base', '/home/ctk/element_ws/build/elementbot_gazebo/build', 'install', '--record', '/home/ctk/element_ws/build/elementbot_gazebo/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ctk/element_ws/src/elementbot_gazebo', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_TW:zh', 'USER': 'ctk', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ctk', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.95.0', 'DESKTOP_SESSION': 'ubuntu-xorg', 'CONNEXTDDS_DIR': '/opt/rti.com/rti_connext_dds-6.0.1', 'DEBUGPY_ADAPTER_ENDPOINTS': '/home/ctk/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-98cd2cbf19902856.txt', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'NDDSHOME': '/opt/rti.com/rti_connext_dds-6.0.1', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1350', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1646', 'BUNDLED_DEBUGPY_PATH': '/home/ctk/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3910', 'COLCON_PREFIX_PATH': '/home/ctk/element_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ctk', 'JOURNAL_STREAM': '8:12672', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ctk', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/ctk/.local/bin:/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/humble/bin:/home/ctk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ctk/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/tk:@/tmp/.ICE-unix/1615,unix/tk:/tmp/.ICE-unix/1615', 'INVOCATION_ID': 'cee6b6faa72c41fba89b9cffcb81d369', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'zh_TW.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-4a6dcc99e9.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ctk/element_ws/install/yolov5_ros2:/home/ctk/element_ws/install/line_follower:/home/ctk/element_ws/install/fall_down_yolov5:/home/ctk/element_ws/install/elementbot_urdf:/home/ctk/element_ws/install/elementbot_navigation:/home/ctk/element_ws/install/elementbot_gazebo:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'CONNEXTDDS_ARCH': 'x64Linux4gcc7.3.0', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ctk/element_ws/build/elementbot_gazebo', 'TURTLEBOT3_MODEL': 'waffle', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ctk/element_ws/build/elementbot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ctk/element_ws/install/elementbot_gazebo/lib/python3.10/site-packages:/home/ctk/element_ws/install/yolov5_ros2/lib/python3.10/site-packages:/home/ctk/element_ws/install/line_follower/lib/python3.10/site-packages:/home/ctk/element_ws/install/fall_down_yolov5/lib/python3.10/site-packages:/home/ctk/element_ws/install/elementbot_urdf/lib/python3.10/site-packages:/home/ctk/element_ws/install/elementbot_navigation/lib/python3.10/site-packages:/home/ctk/element_ws/install/elementbot_gazebo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[10.566266] (-) TimerEvent: {}
+[10.661241] (elementbot_navigation) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/elementbot_navigation', 'build', '--build-base', '/home/ctk/element_ws/build/elementbot_navigation/build', 'install', '--record', '/home/ctk/element_ws/build/elementbot_navigation/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ctk/element_ws/src/elementbot_navigation', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_TW:zh', 'USER': 'ctk', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ctk', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.95.0', 'DESKTOP_SESSION': 'ubuntu-xorg', 'CONNEXTDDS_DIR': '/opt/rti.com/rti_connext_dds-6.0.1', 'DEBUGPY_ADAPTER_ENDPOINTS': '/home/ctk/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-98cd2cbf19902856.txt', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'NDDSHOME': '/opt/rti.com/rti_connext_dds-6.0.1', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1350', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1646', 'BUNDLED_DEBUGPY_PATH': '/home/ctk/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3910', 'COLCON_PREFIX_PATH': '/home/ctk/element_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ctk', 'JOURNAL_STREAM': '8:12672', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ctk', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/ctk/.local/bin:/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/humble/bin:/home/ctk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ctk/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/tk:@/tmp/.ICE-unix/1615,unix/tk:/tmp/.ICE-unix/1615', 'INVOCATION_ID': 'cee6b6faa72c41fba89b9cffcb81d369', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'zh_TW.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-4a6dcc99e9.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ctk/element_ws/install/yolov5_ros2:/home/ctk/element_ws/install/line_follower:/home/ctk/element_ws/install/fall_down_yolov5:/home/ctk/element_ws/install/elementbot_urdf:/home/ctk/element_ws/install/elementbot_navigation:/home/ctk/element_ws/install/elementbot_gazebo:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'CONNEXTDDS_ARCH': 'x64Linux4gcc7.3.0', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ctk/element_ws/build/elementbot_navigation', 'TURTLEBOT3_MODEL': 'waffle', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ctk/element_ws/build/elementbot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ctk/element_ws/install/elementbot_navigation/lib/python3.10/site-packages:/home/ctk/element_ws/install/yolov5_ros2/lib/python3.10/site-packages:/home/ctk/element_ws/install/line_follower/lib/python3.10/site-packages:/home/ctk/element_ws/install/fall_down_yolov5/lib/python3.10/site-packages:/home/ctk/element_ws/install/elementbot_urdf/lib/python3.10/site-packages:/home/ctk/element_ws/install/elementbot_navigation/lib/python3.10/site-packages:/home/ctk/element_ws/install/elementbot_gazebo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[10.672943] (-) TimerEvent: {}
+[10.778137] (-) TimerEvent: {}
+[10.889291] (-) TimerEvent: {}
+[10.990562] (-) TimerEvent: {}
+[11.052925] (fall_down_yolov5) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/fall_down_yolov5', 'build', '--build-base', '/home/ctk/element_ws/build/fall_down_yolov5/build', 'install', '--record', '/home/ctk/element_ws/build/fall_down_yolov5/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ctk/element_ws/src/fall_down_yolov5', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_TW:zh', 'USER': 'ctk', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ctk', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.95.0', 'DESKTOP_SESSION': 'ubuntu-xorg', 'CONNEXTDDS_DIR': '/opt/rti.com/rti_connext_dds-6.0.1', 'DEBUGPY_ADAPTER_ENDPOINTS': '/home/ctk/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-98cd2cbf19902856.txt', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'NDDSHOME': '/opt/rti.com/rti_connext_dds-6.0.1', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1350', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1646', 'BUNDLED_DEBUGPY_PATH': '/home/ctk/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3910', 'COLCON_PREFIX_PATH': '/home/ctk/element_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ctk', 'JOURNAL_STREAM': '8:12672', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ctk', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/ctk/.local/bin:/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/humble/bin:/home/ctk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ctk/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/tk:@/tmp/.ICE-unix/1615,unix/tk:/tmp/.ICE-unix/1615', 'INVOCATION_ID': 'cee6b6faa72c41fba89b9cffcb81d369', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'zh_TW.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-4a6dcc99e9.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ctk/element_ws/install/yolov5_ros2:/home/ctk/element_ws/install/line_follower:/home/ctk/element_ws/install/fall_down_yolov5:/home/ctk/element_ws/install/elementbot_urdf:/home/ctk/element_ws/install/elementbot_navigation:/home/ctk/element_ws/install/elementbot_gazebo:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'CONNEXTDDS_ARCH': 'x64Linux4gcc7.3.0', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ctk/element_ws/build/fall_down_yolov5', 'TURTLEBOT3_MODEL': 'waffle', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ctk/element_ws/build/fall_down_yolov5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ctk/element_ws/install/fall_down_yolov5/lib/python3.10/site-packages:/home/ctk/element_ws/install/yolov5_ros2/lib/python3.10/site-packages:/home/ctk/element_ws/install/line_follower/lib/python3.10/site-packages:/home/ctk/element_ws/install/fall_down_yolov5/lib/python3.10/site-packages:/home/ctk/element_ws/install/elementbot_urdf/lib/python3.10/site-packages:/home/ctk/element_ws/install/elementbot_navigation/lib/python3.10/site-packages:/home/ctk/element_ws/install/elementbot_gazebo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[11.090896] (-) TimerEvent: {}
+[11.203623] (-) TimerEvent: {}
+[11.314074] (-) TimerEvent: {}
+[11.418929] (-) TimerEvent: {}
+[11.519748] (-) TimerEvent: {}
+[11.623444] (-) TimerEvent: {}
+[11.734350] (-) TimerEvent: {}
+[11.835469] (-) TimerEvent: {}
+[11.935954] (elementbot_navigation) StdoutLine: {'line': b'running egg_info\n'}
+[11.937122] (-) TimerEvent: {}
+[11.975217] (elementbot_navigation) StdoutLine: {'line': b'writing ../../build/elementbot_navigation/elementbot_navigation.egg-info/PKG-INFO\n'}
+[11.978421] (elementbot_navigation) StdoutLine: {'line': b'writing dependency_links to ../../build/elementbot_navigation/elementbot_navigation.egg-info/dependency_links.txt\n'}
+[11.978704] (elementbot_navigation) StdoutLine: {'line': b'writing entry points to ../../build/elementbot_navigation/elementbot_navigation.egg-info/entry_points.txt\n'}
+[11.981323] (elementbot_navigation) StdoutLine: {'line': b'writing requirements to ../../build/elementbot_navigation/elementbot_navigation.egg-info/requires.txt\n'}
+[11.981679] (elementbot_navigation) StdoutLine: {'line': b'writing top-level names to ../../build/elementbot_navigation/elementbot_navigation.egg-info/top_level.txt\n'}
+[12.039085] (-) TimerEvent: {}
+[12.091341] (line_follower) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/line_follower', 'build', '--build-base', '/home/ctk/element_ws/build/line_follower/build', 'install', '--record', '/home/ctk/element_ws/build/line_follower/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ctk/element_ws/src/line_follower', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_TW:zh', 'USER': 'ctk', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ctk', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.95.0', 'DESKTOP_SESSION': 'ubuntu-xorg', 'CONNEXTDDS_DIR': '/opt/rti.com/rti_connext_dds-6.0.1', 'DEBUGPY_ADAPTER_ENDPOINTS': '/home/ctk/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-98cd2cbf19902856.txt', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'NDDSHOME': '/opt/rti.com/rti_connext_dds-6.0.1', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1350', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1646', 'BUNDLED_DEBUGPY_PATH': '/home/ctk/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3910', 'COLCON_PREFIX_PATH': '/home/ctk/element_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ctk', 'JOURNAL_STREAM': '8:12672', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ctk', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/ctk/.local/bin:/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/humble/bin:/home/ctk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ctk/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/tk:@/tmp/.ICE-unix/1615,unix/tk:/tmp/.ICE-unix/1615', 'INVOCATION_ID': 'cee6b6faa72c41fba89b9cffcb81d369', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'zh_TW.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-4a6dcc99e9.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ctk/element_ws/install/yolov5_ros2:/home/ctk/element_ws/install/line_follower:/home/ctk/element_ws/install/fall_down_yolov5:/home/ctk/element_ws/install/elementbot_urdf:/home/ctk/element_ws/install/elementbot_navigation:/home/ctk/element_ws/install/elementbot_gazebo:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'CONNEXTDDS_ARCH': 'x64Linux4gcc7.3.0', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ctk/element_ws/build/line_follower', 'TURTLEBOT3_MODEL': 'waffle', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ctk/element_ws/build/line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ctk/element_ws/install/line_follower/lib/python3.10/site-packages:/home/ctk/element_ws/install/yolov5_ros2/lib/python3.10/site-packages:/home/ctk/element_ws/install/line_follower/lib/python3.10/site-packages:/home/ctk/element_ws/install/fall_down_yolov5/lib/python3.10/site-packages:/home/ctk/element_ws/install/elementbot_urdf/lib/python3.10/site-packages:/home/ctk/element_ws/install/elementbot_navigation/lib/python3.10/site-packages:/home/ctk/element_ws/install/elementbot_gazebo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[12.093568] (elementbot_navigation) StdoutLine: {'line': b"reading manifest file '../../build/elementbot_navigation/elementbot_navigation.egg-info/SOURCES.txt'\n"}
+[12.107249] (elementbot_navigation) StdoutLine: {'line': b"writing manifest file '../../build/elementbot_navigation/elementbot_navigation.egg-info/SOURCES.txt'\n"}
+[12.107452] (elementbot_navigation) StdoutLine: {'line': b'running build\n'}
+[12.107565] (elementbot_navigation) StdoutLine: {'line': b'running build_py\n'}
+[12.107675] (elementbot_navigation) StdoutLine: {'line': b'copying elementbot_navigation/depth_filter.py -> /home/ctk/element_ws/build/elementbot_navigation/build/lib/elementbot_navigation\n'}
+[12.107803] (elementbot_navigation) StdoutLine: {'line': b'copying elementbot_navigation/__init__.py -> /home/ctk/element_ws/build/elementbot_navigation/build/lib/elementbot_navigation\n'}
+[12.107961] (elementbot_navigation) StdoutLine: {'line': b'copying elementbot_navigation/check_depth.py -> /home/ctk/element_ws/build/elementbot_navigation/build/lib/elementbot_navigation\n'}
+[12.108089] (elementbot_navigation) StdoutLine: {'line': b'running install\n'}
+[12.108256] (elementbot_navigation) StdoutLine: {'line': b'running install_lib\n'}
+[12.140893] (-) TimerEvent: {}
+[12.168273] (elementbot_navigation) StdoutLine: {'line': b'running install_data\n'}
+[12.173113] (elementbot_navigation) StdoutLine: {'line': b'copying resource/elementbot_navigation -> /home/ctk/element_ws/install/elementbot_navigation/share/ament_index/resource_index/packages\n'}
+[12.173280] (elementbot_navigation) StdoutLine: {'line': b'copying package.xml -> /home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation\n'}
+[12.173380] (elementbot_navigation) StdoutLine: {'line': b'copying launch/cartograph_gz.launch.py -> /home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/launch\n'}
+[12.174087] (elementbot_navigation) StdoutLine: {'line': b'copying launch/rtab_rgbd_gz.launch.py -> /home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/launch\n'}
+[12.174320] (elementbot_navigation) StdoutLine: {'line': b'copying launch/rtab_scan_gz.launch.py -> /home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/launch\n'}
+[12.174416] (elementbot_navigation) StdoutLine: {'line': b'copying launch/nav2_bringup_gz.launch.py -> /home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/launch\n'}
+[12.174506] (elementbot_navigation) StdoutLine: {'line': b'copying maps/cloister.yaml -> /home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/maps\n'}
+[12.177027] (elementbot_navigation) StdoutLine: {'line': b'copying param/elementbot_nav2.yaml -> /home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/param\n'}
+[12.177401] (elementbot_navigation) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.221980] (yolov5_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[12.248346] (-) TimerEvent: {}
+[12.309387] (elementbot_navigation) StdoutLine: {'line': b"removing '/home/ctk/element_ws/install/elementbot_navigation/lib/python3.10/site-packages/elementbot_navigation-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[12.316422] (elementbot_navigation) StdoutLine: {'line': b'Copying ../../build/elementbot_navigation/elementbot_navigation.egg-info to /home/ctk/element_ws/install/elementbot_navigation/lib/python3.10/site-packages/elementbot_navigation-0.0.0-py3.10.egg-info\n'}
+[12.316912] (elementbot_navigation) StdoutLine: {'line': b'running install_scripts\n'}
+[12.330408] (yolov5_ros2) StdoutLine: {'line': b'writing ../../../build/yolov5_ros2/yolov5_ros2.egg-info/PKG-INFO\n'}
+[12.343344] (yolov5_ros2) StdoutLine: {'line': b'writing dependency_links to ../../../build/yolov5_ros2/yolov5_ros2.egg-info/dependency_links.txt\n'}
+[12.347991] (yolov5_ros2) StdoutLine: {'line': b'writing entry points to ../../../build/yolov5_ros2/yolov5_ros2.egg-info/entry_points.txt\n'}
+[12.348912] (-) TimerEvent: {}
+[12.353504] (yolov5_ros2) StdoutLine: {'line': b'writing requirements to ../../../build/yolov5_ros2/yolov5_ros2.egg-info/requires.txt\n'}
+[12.353864] (yolov5_ros2) StdoutLine: {'line': b'writing top-level names to ../../../build/yolov5_ros2/yolov5_ros2.egg-info/top_level.txt\n'}
+[12.449342] (-) TimerEvent: {}
+[12.452359] (elementbot_gazebo) StdoutLine: {'line': b'running egg_info\n'}
+[12.459340] (elementbot_urdf) StdoutLine: {'line': b'running egg_info\n'}
+[12.504886] (elementbot_gazebo) StdoutLine: {'line': b'writing ../../build/elementbot_gazebo/elementbot_gazebo.egg-info/PKG-INFO\n'}
+[12.505230] (elementbot_gazebo) StdoutLine: {'line': b'writing dependency_links to ../../build/elementbot_gazebo/elementbot_gazebo.egg-info/dependency_links.txt\n'}
+[12.505356] (elementbot_gazebo) StdoutLine: {'line': b'writing requirements to ../../build/elementbot_gazebo/elementbot_gazebo.egg-info/requires.txt\n'}
+[12.505465] (elementbot_gazebo) StdoutLine: {'line': b'writing top-level names to ../../build/elementbot_gazebo/elementbot_gazebo.egg-info/top_level.txt\n'}
+[12.545481] (elementbot_urdf) StdoutLine: {'line': b'writing ../../build/elementbot_urdf/elementbot_urdf.egg-info/PKG-INFO\n'}
+[12.550776] (-) TimerEvent: {}
+[12.554287] (elementbot_urdf) StdoutLine: {'line': b'writing dependency_links to ../../build/elementbot_urdf/elementbot_urdf.egg-info/dependency_links.txt\n'}
+[12.554722] (elementbot_urdf) StdoutLine: {'line': b'writing requirements to ../../build/elementbot_urdf/elementbot_urdf.egg-info/requires.txt\n'}
+[12.556870] (elementbot_urdf) StdoutLine: {'line': b'writing top-level names to ../../build/elementbot_urdf/elementbot_urdf.egg-info/top_level.txt\n'}
+[12.572692] (yolov5_ros2) StdoutLine: {'line': b"reading manifest file '../../../build/yolov5_ros2/yolov5_ros2.egg-info/SOURCES.txt'\n"}
+[12.575231] (yolov5_ros2) StdoutLine: {'line': b"writing manifest file '../../../build/yolov5_ros2/yolov5_ros2.egg-info/SOURCES.txt'\n"}
+[12.580049] (yolov5_ros2) StdoutLine: {'line': b'running build\n'}
+[12.582357] (yolov5_ros2) StdoutLine: {'line': b'running build_py\n'}
+[12.588128] (yolov5_ros2) StdoutLine: {'line': b'copying yolov5_ros2/__init__.py -> /home/ctk/element_ws/build/yolov5_ros2/build/lib/yolov5_ros2\n'}
+[12.591274] (yolov5_ros2) StdoutLine: {'line': b'copying yolov5_ros2/fall_down_yolov8.py -> /home/ctk/element_ws/build/yolov5_ros2/build/lib/yolov5_ros2\n'}
+[12.596548] (yolov5_ros2) StdoutLine: {'line': b'copying yolov5_ros2/yolo_detect_2d.py -> /home/ctk/element_ws/build/yolov5_ros2/build/lib/yolov5_ros2\n'}
+[12.597032] (yolov5_ros2) StdoutLine: {'line': b'copying yolov5_ros2/cv_tool.py -> /home/ctk/element_ws/build/yolov5_ros2/build/lib/yolov5_ros2\n'}
+[12.606899] (yolov5_ros2) StdoutLine: {'line': b'running install\n'}
+[12.639332] (yolov5_ros2) StdoutLine: {'line': b'running install_lib\n'}
+[12.651690] (-) TimerEvent: {}
+[12.662207] (elementbot_gazebo) StdoutLine: {'line': b"reading manifest file '../../build/elementbot_gazebo/elementbot_gazebo.egg-info/SOURCES.txt'\n"}
+[12.667876] (elementbot_gazebo) StdoutLine: {'line': b"writing manifest file '../../build/elementbot_gazebo/elementbot_gazebo.egg-info/SOURCES.txt'\n"}
+[12.670491] (elementbot_gazebo) StdoutLine: {'line': b'running build\n'}
+[12.670770] (elementbot_gazebo) StdoutLine: {'line': b'running build_py\n'}
+[12.673654] (elementbot_gazebo) StdoutLine: {'line': b'copying elementbot_gazebo/__init__.py -> /home/ctk/element_ws/build/elementbot_gazebo/build/lib/elementbot_gazebo\n'}
+[12.674126] (elementbot_gazebo) StdoutLine: {'line': b'running install\n'}
+[12.691259] (elementbot_gazebo) StdoutLine: {'line': b'running install_lib\n'}
+[12.704635] (yolov5_ros2) StdoutLine: {'line': b'running install_data\n'}
+[12.706313] (yolov5_ros2) StdoutLine: {'line': b'copying package.xml -> /home/ctk/element_ws/install/yolov5_ros2/share/yolov5_ros2\n'}
+[12.709051] (yolov5_ros2) StdoutLine: {'line': b'copying launch/fall_down_yolov8.launch.py -> /home/ctk/element_ws/install/yolov5_ros2/share/yolov5_ros2/launch\n'}
+[12.714239] (yolov5_ros2) StdoutLine: {'line': b'copying launch/yolov5_ros2.launch.py -> /home/ctk/element_ws/install/yolov5_ros2/share/yolov5_ros2/launch\n'}
+[12.720196] (yolov5_ros2) StdoutLine: {'line': b'copying config/best.pt -> /home/ctk/element_ws/install/yolov5_ros2/share/yolov5_ros2/config\n'}
+[12.753792] (-) TimerEvent: {}
+[12.836702] (elementbot_gazebo) StdoutLine: {'line': b'running install_data\n'}
+[12.841857] (elementbot_gazebo) StdoutLine: {'line': b'copying resource/elementbot_gazebo -> /home/ctk/element_ws/install/elementbot_gazebo/share/ament_index/resource_index/packages\n'}
+[12.842331] (elementbot_gazebo) StdoutLine: {'line': b'copying package.xml -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo\n'}
+[12.842493] (elementbot_gazebo) StdoutLine: {'line': b'copying launch/cartograph_4w_diff_urdf.launch.py -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/launch\n'}
+[12.842619] (elementbot_gazebo) StdoutLine: {'line': b'copying launch/slamtoolbox_4w_diff_urdf_gz.launch.py -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/launch\n'}
+[12.842775] (elementbot_gazebo) StdoutLine: {'line': b'copying launch/display_2w_diff_urdf_into_gz.launch.py -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/launch\n'}
+[12.849648] (elementbot_gazebo) StdoutLine: {'line': b'copying launch/display_4w_diff_urdf_into_gz.launch.py -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/launch\n'}
+[12.849797] (elementbot_gazebo) StdoutLine: {'line': b'copying launch/yolo_4w_diff_urdf_into_gz.launch.py -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/launch\n'}
+[12.849918] (elementbot_gazebo) StdoutLine: {'line': b'copying launch/yolo_falldown_4w_diff_urdf_into_gz.launch.py -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/launch\n'}
+[12.850033] (elementbot_gazebo) StdoutLine: {'line': b'copying urdf/elementbot_base.xacro -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/urdf\n'}
+[12.850131] (yolov5_ros2) StdoutLine: {'line': b'copying config/camera_info.yaml -> /home/ctk/element_ws/install/yolov5_ros2/share/yolov5_ros2/config\n'}
+[12.852527] (elementbot_gazebo) StdoutLine: {'line': b'copying urdf/elementbot_4w_diff.xacro -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/urdf\n'}
+[12.852926] (elementbot_gazebo) StdoutLine: {'line': b'copying urdf/elementbot_base.urdf -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/urdf\n'}
+[12.853116] (yolov5_ros2) StdoutLine: {'line': b'copying config/yolov5s.pt -> /home/ctk/element_ws/install/yolov5_ros2/share/yolov5_ros2/config\n'}
+[12.863762] (elementbot_gazebo) StdoutLine: {'line': b'copying urdf/sensors/rgbd_gazebo_harmonic.xacro -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/urdf/sensors\n'}
+[12.865093] (-) TimerEvent: {}
+[12.866308] (elementbot_gazebo) StdoutLine: {'line': b'copying urdf/sensors/lidar_gazebo_harmonic.xacro -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/urdf/sensors\n'}
+[12.879261] (elementbot_gazebo) StdoutLine: {'line': b'copying config/ros_gz_bridge_mbot.yaml -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/config\n'}
+[12.879670] (elementbot_gazebo) StdoutLine: {'line': b'copying config/ros_gz_bridge_elementbot_integrate.yaml -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/config\n'}
+[12.879831] (elementbot_gazebo) StdoutLine: {'line': b'copying config/ros_gz_bridge_elementbot_4w_integrate.yaml -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/config\n'}
+[12.879965] (elementbot_gazebo) StdoutLine: {'line': b'copying world/actor_falldown.sdf -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/world\n'}
+[12.896231] (elementbot_gazebo) StdoutLine: {'line': b'copying world/empty.sdf -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/world\n'}
+[12.896732] (elementbot_gazebo) StdoutLine: {'line': b'copying world/depot.sdf -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/world\n'}
+[12.896944] (elementbot_urdf) StdoutLine: {'line': b"reading manifest file '../../build/elementbot_urdf/elementbot_urdf.egg-info/SOURCES.txt'\n"}
+[12.897082] (elementbot_gazebo) StdoutLine: {'line': b'copying world/actor_demo.sdf -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/world\n'}
+[12.897203] (elementbot_urdf) StdoutLine: {'line': b"writing manifest file '../../build/elementbot_urdf/elementbot_urdf.egg-info/SOURCES.txt'\n"}
+[12.897342] (elementbot_gazebo) StdoutLine: {'line': b'copying world/line_follower.sdf -> /home/ctk/element_ws/install/elementbot_gazebo/share/elementbot_gazebo/world\n'}
+[12.898942] (elementbot_gazebo) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.905026] (elementbot_urdf) StdoutLine: {'line': b'running build\n'}
+[12.905399] (elementbot_urdf) StdoutLine: {'line': b'running build_py\n'}
+[12.905550] (elementbot_urdf) StdoutLine: {'line': b'copying elementbot_urdf/__init__.py -> /home/ctk/element_ws/build/elementbot_urdf/build/lib/elementbot_urdf\n'}
+[12.905824] (elementbot_urdf) StdoutLine: {'line': b'running install\n'}
+[12.965550] (-) TimerEvent: {}
+[12.967591] (elementbot_gazebo) StdoutLine: {'line': b"removing '/home/ctk/element_ws/install/elementbot_gazebo/lib/python3.10/site-packages/elementbot_gazebo-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[12.968235] (elementbot_gazebo) StdoutLine: {'line': b'Copying ../../build/elementbot_gazebo/elementbot_gazebo.egg-info to /home/ctk/element_ws/install/elementbot_gazebo/lib/python3.10/site-packages/elementbot_gazebo-0.0.0-py3.10.egg-info\n'}
+[12.971433] (elementbot_gazebo) StdoutLine: {'line': b'running install_scripts\n'}
+[12.972076] (elementbot_urdf) StdoutLine: {'line': b'running install_lib\n'}
+[12.976983] (yolov5_ros2) StdoutLine: {'line': b'copying resource/mouse.png -> /home/ctk/element_ws/install/yolov5_ros2/share/yolov5_ros2/resource\n'}
+[12.980978] (yolov5_ros2) StdoutLine: {'line': b'copying resource/fish.jpg -> /home/ctk/element_ws/install/yolov5_ros2/share/yolov5_ros2/resource\n'}
+[12.989837] (yolov5_ros2) StdoutLine: {'line': b'copying resource/yolov5_ros2 -> /home/ctk/element_ws/install/yolov5_ros2/share/yolov5_ros2/resource\n'}
+[12.994382] (yolov5_ros2) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.055624] (fall_down_yolov5) StdoutLine: {'line': b'running egg_info\n'}
+[13.066101] (-) TimerEvent: {}
+[13.133538] (fall_down_yolov5) StdoutLine: {'line': b'writing ../../build/fall_down_yolov5/fall_down_yolov5.egg-info/PKG-INFO\n'}
+[13.138134] (fall_down_yolov5) StdoutLine: {'line': b'writing dependency_links to ../../build/fall_down_yolov5/fall_down_yolov5.egg-info/dependency_links.txt\n'}
+[13.138720] (fall_down_yolov5) StdoutLine: {'line': b'writing entry points to ../../build/fall_down_yolov5/fall_down_yolov5.egg-info/entry_points.txt\n'}
+[13.142000] (fall_down_yolov5) StdoutLine: {'line': b'writing requirements to ../../build/fall_down_yolov5/fall_down_yolov5.egg-info/requires.txt\n'}
+[13.142966] (yolov5_ros2) StdoutLine: {'line': b"removing '/home/ctk/element_ws/install/yolov5_ros2/lib/python3.10/site-packages/yolov5_ros2-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[13.149825] (fall_down_yolov5) StdoutLine: {'line': b'writing top-level names to ../../build/fall_down_yolov5/fall_down_yolov5.egg-info/top_level.txt\n'}
+[13.150647] (yolov5_ros2) StdoutLine: {'line': b'Copying ../../../build/yolov5_ros2/yolov5_ros2.egg-info to /home/ctk/element_ws/install/yolov5_ros2/lib/python3.10/site-packages/yolov5_ros2-0.0.0-py3.10.egg-info\n'}
+[13.163010] (elementbot_urdf) StdoutLine: {'line': b'running install_data\n'}
+[13.163904] (elementbot_urdf) StdoutLine: {'line': b'copying resource/elementbot_urdf -> /home/ctk/element_ws/install/elementbot_urdf/share/ament_index/resource_index/packages\n'}
+[13.164118] (elementbot_urdf) StdoutLine: {'line': b'copying package.xml -> /home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf\n'}
+[13.164327] (elementbot_urdf) StdoutLine: {'line': b'copying launch/display_xacro.launch.py -> /home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/launch\n'}
+[13.164500] (elementbot_urdf) StdoutLine: {'line': b'copying launch/display.launch.py -> /home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/launch\n'}
+[13.164646] (elementbot_urdf) StdoutLine: {'line': b'copying urdf/elementbot_4w_diff.urdf -> /home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/urdf\n'}
+[13.171191] (elementbot_urdf) StdoutLine: {'line': b'copying urdf/elementbot_base.xacro -> /home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/urdf\n'}
+[13.171447] (-) TimerEvent: {}
+[13.171736] (elementbot_urdf) StdoutLine: {'line': b'copying urdf/elementbot_4w_diff.xacro -> /home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/urdf\n'}
+[13.171902] (elementbot_urdf) StdoutLine: {'line': b'copying urdf/elementbot_base.urdf -> /home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/urdf\n'}
+[13.172007] (elementbot_urdf) StdoutLine: {'line': b'copying meshes/kinect.tga -> /home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/meshes\n'}
+[13.172125] (elementbot_urdf) StdoutLine: {'line': b'copying meshes/kinect.dae -> /home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/meshes\n'}
+[13.172683] (yolov5_ros2) StdoutLine: {'line': b'running install_scripts\n'}
+[13.173206] (elementbot_urdf) StdoutLine: {'line': b'copying meshes/kinect.jpg -> /home/ctk/element_ws/install/elementbot_urdf/share/elementbot_urdf/meshes\n'}
+[13.174578] (elementbot_urdf) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.272850] (-) TimerEvent: {}
+[13.316161] (elementbot_urdf) StdoutLine: {'line': b"removing '/home/ctk/element_ws/install/elementbot_urdf/lib/python3.10/site-packages/elementbot_urdf-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[13.325520] (elementbot_urdf) StdoutLine: {'line': b'Copying ../../build/elementbot_urdf/elementbot_urdf.egg-info to /home/ctk/element_ws/install/elementbot_urdf/lib/python3.10/site-packages/elementbot_urdf-0.0.0-py3.10.egg-info\n'}
+[13.325954] (elementbot_urdf) StdoutLine: {'line': b'running install_scripts\n'}
+[13.373010] (-) TimerEvent: {}
+[13.406225] (fall_down_yolov5) StdoutLine: {'line': b"reading manifest file '../../build/fall_down_yolov5/fall_down_yolov5.egg-info/SOURCES.txt'\n"}
+[13.420702] (fall_down_yolov5) StdoutLine: {'line': b"writing manifest file '../../build/fall_down_yolov5/fall_down_yolov5.egg-info/SOURCES.txt'\n"}
+[13.421122] (elementbot_gazebo) StdoutLine: {'line': b"writing list of installed files to '/home/ctk/element_ws/build/elementbot_gazebo/install.log'\n"}
+[13.421371] (fall_down_yolov5) StdoutLine: {'line': b'running build\n'}
+[13.421494] (fall_down_yolov5) StdoutLine: {'line': b'running build_py\n'}
+[13.421601] (fall_down_yolov5) StdoutLine: {'line': b'copying fall_down_yolov5/fall_down_detect_yolov5.py -> /home/ctk/element_ws/build/fall_down_yolov5/build/lib/fall_down_yolov5\n'}
+[13.421702] (fall_down_yolov5) StdoutLine: {'line': b'copying fall_down_yolov5/__init__.py -> /home/ctk/element_ws/build/fall_down_yolov5/build/lib/fall_down_yolov5\n'}
+[13.421806] (fall_down_yolov5) StdoutLine: {'line': b'copying fall_down_yolov5/cv_tool.py -> /home/ctk/element_ws/build/fall_down_yolov5/build/lib/fall_down_yolov5\n'}
+[13.421973] (fall_down_yolov5) StdoutLine: {'line': b'running install\n'}
+[13.459023] (fall_down_yolov5) StdoutLine: {'line': b'running install_lib\n'}
+[13.475647] (-) TimerEvent: {}
+[13.584557] (-) TimerEvent: {}
+[13.600267] (elementbot_navigation) StdoutLine: {'line': b'Installing check_depth script to /home/ctk/element_ws/install/elementbot_navigation/lib/elementbot_navigation\n'}
+[13.602911] (fall_down_yolov5) StdoutLine: {'line': b'running install_data\n'}
+[13.603686] (elementbot_navigation) StdoutLine: {'line': b'Installing depth_filter script to /home/ctk/element_ws/install/elementbot_navigation/lib/elementbot_navigation\n'}
+[13.604022] (fall_down_yolov5) StdoutLine: {'line': b'copying package.xml -> /home/ctk/element_ws/install/fall_down_yolov5/share/fall_down_yolov5\n'}
+[13.604290] (fall_down_yolov5) StdoutLine: {'line': b'copying config/best.pt -> /home/ctk/element_ws/install/fall_down_yolov5/share/fall_down_yolov5/config\n'}
+[13.605126] (elementbot_navigation) StdoutLine: {'line': b"writing list of installed files to '/home/ctk/element_ws/build/elementbot_navigation/install.log'\n"}
+[13.672033] (elementbot_gazebo) CommandEnded: {'returncode': 0}
+[13.691454] (-) TimerEvent: {}
+[13.697545] (fall_down_yolov5) StdoutLine: {'line': b'copying config/camera_info.yaml -> /home/ctk/element_ws/install/fall_down_yolov5/share/fall_down_yolov5/config\n'}
+[13.722604] (fall_down_yolov5) StdoutLine: {'line': b'copying config/yolov5s.pt -> /home/ctk/element_ws/install/fall_down_yolov5/share/fall_down_yolov5/config\n'}
+[13.723042] (fall_down_yolov5) StdoutLine: {'line': b'copying resource/fall_down_yolov5 -> /home/ctk/element_ws/install/fall_down_yolov5/share/fall_down_yolov5/resource\n'}
+[13.723181] (fall_down_yolov5) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.789565] (fall_down_yolov5) StdoutLine: {'line': b"removing '/home/ctk/element_ws/install/fall_down_yolov5/lib/python3.10/site-packages/fall_down_yolov5-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[13.789837] (fall_down_yolov5) StdoutLine: {'line': b'Copying ../../build/fall_down_yolov5/fall_down_yolov5.egg-info to /home/ctk/element_ws/install/fall_down_yolov5/lib/python3.10/site-packages/fall_down_yolov5-0.0.0-py3.10.egg-info\n'}
+[13.789956] (fall_down_yolov5) StdoutLine: {'line': b'running install_scripts\n'}
+[13.791547] (-) TimerEvent: {}
+[13.836234] (elementbot_gazebo) JobEnded: {'identifier': 'elementbot_gazebo', 'rc': 0}
+[13.893330] (-) TimerEvent: {}
+[14.000183] (-) TimerEvent: {}
+[14.107060] (-) TimerEvent: {}
+[14.213491] (-) TimerEvent: {}
+[14.217518] (elementbot_navigation) CommandEnded: {'returncode': 0}
+[14.261584] (line_follower) StdoutLine: {'line': b'running egg_info\n'}
+[14.294011] (fall_down_yolov5) StdoutLine: {'line': b'Installing fall_down_detect_yolov5 script to /home/ctk/element_ws/install/fall_down_yolov5/lib/fall_down_yolov5\n'}
+[14.295445] (fall_down_yolov5) StdoutLine: {'line': b"writing list of installed files to '/home/ctk/element_ws/build/fall_down_yolov5/install.log'\n"}
+[14.314796] (elementbot_urdf) StdoutLine: {'line': b"writing list of installed files to '/home/ctk/element_ws/build/elementbot_urdf/install.log'\n"}
+[14.315364] (-) TimerEvent: {}
+[14.347693] (elementbot_navigation) JobEnded: {'identifier': 'elementbot_navigation', 'rc': 0}
+[14.422204] (-) TimerEvent: {}
+[14.431301] (line_follower) StdoutLine: {'line': b'writing ../../build/line_follower/line_follower.egg-info/PKG-INFO\n'}
+[14.440830] (line_follower) StdoutLine: {'line': b'writing dependency_links to ../../build/line_follower/line_follower.egg-info/dependency_links.txt\n'}
+[14.442182] (line_follower) StdoutLine: {'line': b'writing entry points to ../../build/line_follower/line_follower.egg-info/entry_points.txt\n'}
+[14.442537] (line_follower) StdoutLine: {'line': b'writing requirements to ../../build/line_follower/line_follower.egg-info/requires.txt\n'}
+[14.442694] (line_follower) StdoutLine: {'line': b'writing top-level names to ../../build/line_follower/line_follower.egg-info/top_level.txt\n'}
+[14.480395] (yolov5_ros2) StdoutLine: {'line': b'Installing fall_down_yolov8 script to /home/ctk/element_ws/install/yolov5_ros2/lib/yolov5_ros2\n'}
+[14.481423] (yolov5_ros2) StdoutLine: {'line': b'Installing yolo_detect_2d script to /home/ctk/element_ws/install/yolov5_ros2/lib/yolov5_ros2\n'}
+[14.481581] (yolov5_ros2) StdoutLine: {'line': b"writing list of installed files to '/home/ctk/element_ws/build/yolov5_ros2/install.log'\n"}
+[14.525383] (fall_down_yolov5) CommandEnded: {'returncode': 0}
+[14.532501] (-) TimerEvent: {}
+[14.569462] (fall_down_yolov5) JobEnded: {'identifier': 'fall_down_yolov5', 'rc': 0}
+[14.582874] (elementbot_urdf) CommandEnded: {'returncode': 0}
+[14.632732] (-) TimerEvent: {}
+[14.662963] (elementbot_urdf) JobEnded: {'identifier': 'elementbot_urdf', 'rc': 0}
+[14.701308] (line_follower) StdoutLine: {'line': b"reading manifest file '../../build/line_follower/line_follower.egg-info/SOURCES.txt'\n"}
+[14.710225] (line_follower) StdoutLine: {'line': b"writing manifest file '../../build/line_follower/line_follower.egg-info/SOURCES.txt'\n"}
+[14.711418] (line_follower) StdoutLine: {'line': b'running build\n'}
+[14.711711] (line_follower) StdoutLine: {'line': b'running build_py\n'}
+[14.711886] (line_follower) StdoutLine: {'line': b'copying line_follower/__init__.py -> /home/ctk/element_ws/build/line_follower/build/lib/line_follower\n'}
+[14.712033] (line_follower) StdoutLine: {'line': b'copying line_follower/line_follower.py -> /home/ctk/element_ws/build/line_follower/build/lib/line_follower\n'}
+[14.717309] (line_follower) StdoutLine: {'line': b'running install\n'}
+[14.734330] (line_follower) StdoutLine: {'line': b'running install_lib\n'}
+[14.735316] (-) TimerEvent: {}
+[14.817538] (yolov5_ros2) CommandEnded: {'returncode': 0}
+[14.826113] (line_follower) StdoutLine: {'line': b'running install_data\n'}
+[14.840517] (-) TimerEvent: {}
+[14.841624] (line_follower) StdoutLine: {'line': b'copying resource/line_follower -> /home/ctk/element_ws/install/line_follower/share/ament_index/resource_index/packages\n'}
+[14.842426] (line_follower) StdoutLine: {'line': b'copying package.xml -> /home/ctk/element_ws/install/line_follower/share/line_follower\n'}
+[14.842563] (line_follower) StdoutLine: {'line': b'copying launch/elementbot_gz_line_follower.launch.py -> /home/ctk/element_ws/install/line_follower/share/line_follower/launch\n'}
+[14.842678] (line_follower) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.917697] (line_follower) StdoutLine: {'line': b"removing '/home/ctk/element_ws/install/line_follower/lib/python3.10/site-packages/line_follower-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[14.925641] (line_follower) StdoutLine: {'line': b'Copying ../../build/line_follower/line_follower.egg-info to /home/ctk/element_ws/install/line_follower/lib/python3.10/site-packages/line_follower-0.0.0-py3.10.egg-info\n'}
+[14.925944] (line_follower) StdoutLine: {'line': b'running install_scripts\n'}
+[14.926127] (yolov5_ros2) JobEnded: {'identifier': 'yolov5_ros2', 'rc': 0}
+[14.943136] (-) TimerEvent: {}
+[15.047040] (-) TimerEvent: {}
+[15.153235] (-) TimerEvent: {}
+[15.261141] (-) TimerEvent: {}
+[15.368261] (-) TimerEvent: {}
+[15.457153] (line_follower) StdoutLine: {'line': b'Installing line_follower script to /home/ctk/element_ws/install/line_follower/lib/line_follower\n'}
+[15.463946] (line_follower) StdoutLine: {'line': b"writing list of installed files to '/home/ctk/element_ws/build/line_follower/install.log'\n"}
+[15.471276] (-) TimerEvent: {}
+[15.575783] (-) TimerEvent: {}
+[15.677423] (-) TimerEvent: {}
+[15.772777] (line_follower) CommandEnded: {'returncode': 0}
+[15.777541] (-) TimerEvent: {}
+[15.834203] (line_follower) JobEnded: {'identifier': 'line_follower', 'rc': 0}
+[15.838280] (-) EventReactorShutdown: {}
