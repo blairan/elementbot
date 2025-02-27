@@ -10,6 +10,7 @@
 /home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/launch/rtab_rgbd_gz.launch.py
 /home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/launch/rtab_scan_gz.launch.py
 /home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/launch/nav2_bringup_gz.launch.py
+/home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/launch/nav2_carto.launch.py
 /home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/config/lds_2d.lua
 /home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/maps/cloister.yaml
 /home/ctk/element_ws/install/elementbot_navigation/share/elementbot_navigation/rviz/slam.rviz

@@ -14,6 +14,7 @@ elementbot_navigation/check_depth.py
 elementbot_navigation/depth_filter.py
 launch/cartograph_gz.launch.py
 launch/nav2_bringup_gz.launch.py
+launch/nav2_carto.launch.py
 launch/rtab_rgbd_gz.launch.py
 launch/rtab_scan_gz.launch.py
 maps/cloister.yaml

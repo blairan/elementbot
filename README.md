@@ -44,8 +44,15 @@
   - $ `ros2 launch elementbot_gazebo slamtoolbox_4w_diff_urdf_gz.launch.py`
   - $ `ros2 launch elementbot_navigation nav2_bringup_gz.launch.py`
 - ### **Cartograph建圖**![1740107214178](images/README/1740107214178.png)
-- $ `ros2 launch elementbot_gazebo cartograph_4w_diff_urdf.launch.py`
-- $` ros2 launch elementbot_navigation cartograph_gz.launch.py`
+
+
+  - $ `ros2 launch elementbot_gazebo cartograph_4w_diff_urdf.launch.py`
+  - $` ros2 launch elementbot_navigation cartograph_gz.launch.py`
+- #### 一邊建圖一邊導航![1740638728054](images/README/1740638728054.png)
+
+
+  - $ `ros2 launch elementbot_gazebo slamtoolbox_4w_diff_urdf_gz.launch.py`
+  - $ `ros2 launch elementbot_navigation nav2_carto.launch.py`
 - ### **rtabmap 純雷達建圖**![1740122442665](images/README/1740122442665.png)
 
 
